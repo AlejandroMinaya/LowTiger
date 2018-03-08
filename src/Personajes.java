@@ -4,4 +4,9 @@ public class Personajes
     protected Item equipado;
     protected int dano;
     protected double velocidad;
+
+    public Personajes()
+    {
+
+    }
 }
