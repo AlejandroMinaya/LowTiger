@@ -1,4 +1,4 @@
-public class Personajes
+public abstract class Personajes extends ObjetoJuego
 {
     protected int vida;
     protected Item equipado;
