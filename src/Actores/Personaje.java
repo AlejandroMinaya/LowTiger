@@ -1,3 +1,6 @@
+package Actores;
+import ObjetoJuego.ObjetoJuego;
+import Item.Item;
 public abstract class Personaje extends ObjetoJuego
 {
     protected int vida;

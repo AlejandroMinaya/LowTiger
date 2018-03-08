@@ -1,3 +1,5 @@
+package ObjetoJuego;
+
 import java.awt.Rectangle;
 import java.awt.geom.Line2D.Double;
 import java.util.ArrayList;
