@@ -3,6 +3,7 @@ import java.awt.geom.Line2D.Double;
 import java.util.ArrayList;
 public abstract class ObjetoJuego
 {
+    protected boolean alive;
     protected double[] posicion;
     protected String sprites; //Path to Sprites folder
     protected Rectangle hitbox;
@@ -42,6 +43,7 @@ public abstract class ObjetoJuego
 
     public ObjetoJuego()
     {
+        alive = true;
         posicion = new double[]{0, 0};
         sprites = "";
         hitbox = new Rectangle(0, 0, 0, 0);
@@ -74,6 +76,7 @@ public abstract class ObjetoJuego
 
     public void destroy()
     {
+        alive = false;
         posicion = new double[]{-1, -1};
         hitbox = new Rectangle(-1, -1, 0, 0);
 
