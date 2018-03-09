@@ -1,4 +1,4 @@
-package Item;
+package ObjetoJuego.Item;
 
 public abstract class Item
 {
