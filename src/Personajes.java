@@ -15,4 +15,33 @@ public class Personajes
 
     }
 
+public adelante()
+{
+x++;y++;
+hitbox(x,y);
+raycast(x,y);
+}
+public atras()
+{
+    x--;y--;
+    hitbox(x,y);
+    raycast(x,y);
+
+}
+
+
+    public avanza(boolean delante)
+    {
+if(delante==true){
+
+    adelante
+}
+else{
+
+
+}
+
+
+    }
+
 }
