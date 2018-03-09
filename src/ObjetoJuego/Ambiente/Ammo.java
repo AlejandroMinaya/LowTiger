@@ -1,5 +1,5 @@
 package ObjetoJuego.Ambiente;
 
-public abstract class Escenario
+public class Ammo extends Powerup
 {
 }
