@@ -1,6 +1,6 @@
-package Actores;
+package ObjetoJuego.Actores;
 import ObjetoJuego.ObjetoJuego;
-import Item.Item;
+import ObjetoJuego.Item.Item;
 public abstract class Personaje extends ObjetoJuego
 {
     protected int vida;
@@ -23,6 +23,36 @@ public abstract class Personaje extends ObjetoJuego
         equipado = null;
         dano = 0;
         velocidad = 0.0;
+
+    }
+
+    private void adelante()
+    {
+        this.hitbox.x++;
+        this.hitbox.y++;
+        this.raycast.x1++;
+        this.raycast.x2++;
+    }
+
+    private void atras()
+    {
+        this.hitbox.x--;
+        this.hitbox.y--;
+        this.raycast.x1--;
+        this.raycast.x2--;
+
+    }
+
+
+    public void mover(boolean delante)
+    {
+        if(delante)
+        {
+            adelante();
+        }
+        else {
+            atras();
+        }
 
     }
 

@@ -1,5 +1,5 @@
-package Actores;
-import Item.Item;
+package ObjetoJuego.Actores;
+import ObjetoJuego.Item.Item;
 public class Enemigo extends Personaje
 {
     protected boolean esBoss;

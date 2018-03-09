@@ -1,4 +1,4 @@
-package Actores;
+package ObjetoJuego.Actores;
 
 public class Jugador extends Personaje
 {
