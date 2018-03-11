@@ -159,11 +159,12 @@
         <mark key="^" line="2" column="34" />
         <mark key="." line="2" column="34" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/Lab72_Orquesta/src/Orquesta.java" timestamp="1520268466798">
-        <mark key="[" line="62" column="1" />
-        <mark key="]" line="60" column="33" />
-        <mark key="." line="60" column="33" />
-        <mark key="^" line="60" column="33" />
+      <file name="$USER_HOME$/IdeaProjects/POO/Lab72_Orquesta/src/Orquesta.java" timestamp="1520807196303">
+        <mark key="'" line="80" column="19" />
+        <mark key="[" line="87" column="45" />
+        <mark key="]" line="87" column="37" />
+        <mark key="^" line="87" column="37" />
+        <mark key="." line="87" column="37" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/Personaje.java" timestamp="1520538337875">
         <mark key="[" line="18" column="12" />
@@ -198,6 +199,12 @@
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ControladorJuego/Nivel.java" timestamp="1520560477306">
         <mark key="[" line="2" column="18" />
       </file>
+      <file name="$USER_HOME$/IdeaProjects/POO/Lab72_Orquesta/src/Main.java" timestamp="1520807357052">
+        <mark key="[" line="51" column="76" />
+        <mark key="]" line="51" column="75" />
+        <mark key="." line="51" column="75" />
+        <mark key="^" line="51" column="75" />
+      </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Ambiente/Plataforma.java" timestamp="1520573376911">
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="30" />
@@ -222,54 +229,65 @@
       <jump line="2" column="3" filename="$USER_HOME$/IdeaProjects/POO/Lab72_Orquesta/src/Main.java" />
       <jump line="13" column="50" filename="$USER_HOME$/IdeaProjects/POO/Lab72_Orquesta/src/Orquesta.java" />
       <jump line="60" column="58" filename="$USER_HOME$/IdeaProjects/POO/Lab72_Orquesta/src/Orquesta.java" />
+      <jump line="43" column="4" filename="$USER_HOME$/IdeaProjects/POO/Lab72_Orquesta/src/Orquesta.java" />
+      <jump line="80" column="19" filename="$USER_HOME$/IdeaProjects/POO/Lab72_Orquesta/src/Orquesta.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>}</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJFbCBjb3N0byB0b3RhbCBlcyBkZSAkIiArIG9ycXVlc3RhLmNvc3RvVG90YWwoKSk7Cg==</text>
       </register>
       <register name="-" type="4">
         <text>}</text>
+      </register>
+      <register name="/" type="4">
+        <text>checar</text>
       </register>
       <register name="0" type="4">
         <text>============</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICB4Kys7eSsrOwogICAgICAgIGhpdGJveCh4LHkpOwogICAgICAgIHJheWNhc3QoeCx5KTsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJFbCBjb3N0byB0b3RhbCBlcyBkZSAkIiArIG9ycXVlc3RhLmNvc3RvVG90YWwoKSk7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByYXljYXN0ID0gbmV3IExpbmUyRCgwLCAwLCAwLCAwKTsK</text>
+        <text encoding="base64">ICAgICAgICBpLnNldENvZGlnbyhjb2RpZ28pOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBJdGVyYXRvcjxJbnN0cnVtZW50bz4gaW5zdHJ1bWVudG9JdGVyYXRvciA9IGluc3RydW1lbnRvLmxpc3RJdGVyYXRvcigpOwogICAgICAgIHdoaWxlKGluc3RydW1lbnRvSXRlcmF0b3IuaGFzTmV4dCgpKQogICAgICAgIHsKICAgICAgICAgICAgdG90YWwgKz0gaW5zdHJ1bWVudG9JdGVyYXRvci5uZXh0KCkuZ2V0Q29zdG8oKTsKICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBJbnN0cnVtZW50byBpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgSW5zdHJ1bWVudG8gdG1wOwo=</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4odmlvbGluLnRvU3RyaW5nKCkpOwogICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbihzYXhvZm9uLnRvU3RyaW5nKCkpOwogICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbihvcnF1ZXN0YS50b1N0cmluZygpKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBvcnF1ZXN0YS5hZ3JlZ2FyKHZpb2xpbik7CiAgICAgICAgb3JxdWVzdGEuYWdyZWdhcihzYXhvZm9uKTsK</text>
+        <text encoding="base64">ICAgICAgICB4Kys7eSsrOwogICAgICAgIGhpdGJveCh4LHkpOwogICAgICAgIHJheWNhc3QoeCx5KTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHN0ci5hcHBlbmQoIlx0Iik7Cg==</text>
+        <text encoding="base64">ICAgICAgICByYXljYXN0ID0gbmV3IExpbmUyRCgwLCAwLCAwLCAwKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIC8vIFRJUE9TCiAgICAvLyAwIC0gQmFqbwogICAgLy8gMSAtIENvbnRyYWJham8KICAgIC8vIDIgLSBBbHRvCg==</text>
+        <text encoding="base64">ICAgICAgICBJdGVyYXRvcjxJbnN0cnVtZW50bz4gaW5zdHJ1bWVudG9JdGVyYXRvciA9IGluc3RydW1lbnRvLmxpc3RJdGVyYXRvcigpOwogICAgICAgIHdoaWxlKGluc3RydW1lbnRvSXRlcmF0b3IuaGFzTmV4dCgpKQogICAgICAgIHsKICAgICAgICAgICAgdG90YWwgKz0gaW5zdHJ1bWVudG9JdGVyYXRvci5uZXh0KCkuZ2V0Q29zdG8oKTsKICAgICAgICB9Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgc3RhdGljIGludCB0aXBvc1tdID0geyJiYWpvIiwgIiJ9Owo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgSW5zdHJ1bWVudG8gdG1wOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICArICJcbj09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG4iOwo=</text>
+        <text encoding="base64">ICAgICAgICBvcnF1ZXN0YS5hZ3JlZ2FyKHZpb2xpbik7CiAgICAgICAgb3JxdWVzdGEuYWdyZWdhcihzYXhvZm9uKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-dir>0</last-dir>
+      <last-search>checar</last-search>
+      <last-offset />
+      <last-pattern>checar</last-pattern>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
-      <history-search />
+      <history-search>
+        <entry>orquesta</entry>
+        <entry>checar</entry>
+      </history-search>
       <history-cmd>
         <entry>tabp</entry>
         <entry>tabn</entry>
