@@ -15,6 +15,12 @@
         <mark key="^" line="2" column="32" />
         <mark key="." line="2" column="32" />
       </file>
+      <file name="$USER_HOME$/IdeaProjects/POO/Lab8_Stack/src/FullStackException.java" timestamp="1520870031430">
+        <mark key="[" line="0" column="31" />
+        <mark key="]" line="9" column="18" />
+        <mark key="^" line="9" column="18" />
+        <mark key="." line="9" column="18" />
+      </file>
       <file name="/a.dummy" timestamp="1520537919112">
         <mark key="[" line="0" column="0" />
       </file>
@@ -90,17 +96,23 @@
         <mark key="^" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
+      <file name="$USER_HOME$/IdeaProjects/POO/Lab8_Stack/src/EmptyStackException.java" timestamp="1520869799439">
+        <mark key="[" line="1" column="3" />
+        <mark key="]" line="12" column="1" />
+        <mark key="^" line="12" column="1" />
+        <mark key="." line="12" column="1" />
+      </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Actores/Personaje.java" timestamp="1520573034572">
         <mark key="[" line="52" column="13" />
         <mark key="]" line="52" column="12" />
         <mark key="." line="52" column="12" />
         <mark key="^" line="52" column="12" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/Lab8_Stack/src/Main.java" timestamp="1520868726418">
-        <mark key="[" line="4" column="5" />
-        <mark key="]" line="5" column="35" />
-        <mark key="^" line="5" column="35" />
-        <mark key="." line="5" column="35" />
+      <file name="$USER_HOME$/IdeaProjects/POO/Lab8_Stack/src/Main.java" timestamp="1520870649141">
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="0" />
+        <mark key="." line="13" column="0" />
+        <mark key="^" line="17" column="22" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Ambiente/Escenario.java" timestamp="1520573449909">
         <mark key="[" line="2" column="6" />
@@ -159,11 +171,12 @@
         <mark key="^" line="7" column="28" />
         <mark key="." line="7" column="28" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/Lab8_Stack/src/Stack.java" timestamp="1520869533107">
-        <mark key="[" line="14" column="0" />
-        <mark key="]" line="8" column="33" />
-        <mark key="^" line="8" column="33" />
-        <mark key="." line="8" column="33" />
+      <file name="$USER_HOME$/IdeaProjects/POO/Lab8_Stack/src/Stack.java" timestamp="1520870504303">
+        <mark key="'" line="32" column="12" />
+        <mark key="[" line="44" column="8" />
+        <mark key="]" line="46" column="23" />
+        <mark key="^" line="46" column="23" />
+        <mark key="." line="46" column="23" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Actores/Pacino.java" timestamp="1520573117662">
         <mark key="[" line="2" column="20" />
@@ -245,55 +258,58 @@
       <jump line="43" column="4" filename="$USER_HOME$/IdeaProjects/POO/Lab72_Orquesta/src/Orquesta.java" />
       <jump line="80" column="19" filename="$USER_HOME$/IdeaProjects/POO/Lab72_Orquesta/src/Orquesta.java" />
       <jump line="58" column="61" filename="$USER_HOME$/IdeaProjects/POO/Lab72_Orquesta/src/Main.java" />
+      <jump line="32" column="12" filename="$USER_HOME$/IdeaProjects/POO/Lab8_Stack/src/Stack.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEubGFuZy5yZWZsZWN0LkNvbnN0cnVjdG9yOwoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbS5wb3AoKTsK</text>
       </register>
       <register name="-" type="4">
         <text>Constructor</text>
       </register>
       <register name="/" type="4">
-        <text>7)</text>
+        <text>_top</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBjYXNlIDc6CiAgICAgICAgICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnQoIkluZ3Jlc2UgZWwgY29kaWdvIGRlbCBpbnN0cnVtZW50byBhIHRvY2FyOiAiKTsKICAgICAgICAgICAgICAgICAgICAgICAgSW5zdHJ1bWVudG8gdG1wID0gb3JxdWVzdGEuZmluZEluc3RydW1lbnRvKGtiLm5leHRMaW5lKCkpOwogICAgICAgICAgICAgICAgICAgICAgICBpZih0bXAgIT0gbnVsbCkKICAgICAgICAgICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG1wLnRvY2FyKCk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkluc3RydW1lbnRvIG5vIGVuY29udHJhZG8iKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBicmVhazsK</text>
+        <text encoding="base64">ICAgICAgICBjYXRjaChFbXB0eVN0YWNrRXhjZXB0aW9uIGUpCiAgICAgICAgewogICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oZS5nZXRNZXNzYWdlKCkpOwogICAgICAgIH0K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEubGFuZy5yZWZsZWN0LkNvbnN0cnVjdG9yOwoK</text>
+        <text encoding="base64">ICAgICAgICAgICAgbS5wb3AoKTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEubGFuZy5yZWZsZWN0LkFycmF5OwppbXBvcnQgamF2YS5sYW5nLnJlZmxlY3QuQ29uc3RydWN0b3I7Cg==</text>
+        <text encoding="base64">ICAgICAgICBjYXRjaChGdWxsU3RhY2spCiAgICAgICAgewogICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oZS5nZXRNZXNzYWdlKCkpOwogICAgICAgIH0K</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgQ29uc3RydWN0b3I8PyBleHRlbmRzIFQ+IGluc3RhbmNlVDsK</text>
+        <text encoding="base64">ICAgICAgICBUIGxhc3RUb3AgPSB0b3A7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIFN0YWNrKENsYXNzPD8gZXh0ZW5kcyBUPiBpbnN0YW5jZVQpIHRocm93cyBOb1N1Y2hNZXRob2RFeGNlcHRpb24KICAgIHsKICAgICAgICB0aGlzLmluc3RhbmNlVCA9IGluc3RhbmNlVC5nZXRDb25zdHJ1Y3RvcigpOwogICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgewo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEubGFuZy5yZWZsZWN0LkNvbnN0cnVjdG9yOwo=</text>
+        <text encoding="base64">aW1wb3J0IGphdmEudXRpbC5FbXB0eVN0YWNrRXhjZXB0aW9uOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBJbnN0cnVtZW50byB2aW9saW4gPSBuZXcgVmlvbGluKCk7CiAgICAgICAgSW5zdHJ1bWVudG8gc2F4b2ZvbiA9IG5ldyBTYXhvZm9uKCk7Cg==</text>
+        <text encoding="base64">aW1wb3J0IHN1bi5pbnZva2UuZW1wdHkuRW1wdHk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJFbCBjb3N0byB0b3RhbCBlcyBkZSAkIiArIG9ycXVlc3RhLmNvc3RvVG90YWwoKSk7Cg==</text>
+        <text encoding="base64">aW1wb3J0IGphdmEubGFuZy5yZWZsZWN0LkNvbnN0cnVjdG9yOwoK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBpLnNldENvZGlnbyhjb2RpZ28pOwo=</text>
+        <text encoding="base64">aW1wb3J0IGphdmEubGFuZy5yZWZsZWN0LkFycmF5OwppbXBvcnQgamF2YS5sYW5nLnJlZmxlY3QuQ29uc3RydWN0b3I7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBJbnN0cnVtZW50byBpOwo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgQ29uc3RydWN0b3I8PyBleHRlbmRzIFQ+IGluc3RhbmNlVDsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>7)</last-search>
+      <last-search>_top</last-search>
       <last-offset />
-      <last-pattern>7)</last-pattern>
+      <last-pattern>_top</last-pattern>
+      <last-replace>top</last-replace>
+      <last-substitute>_top</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -302,11 +318,14 @@
         <entry>orquesta</entry>
         <entry>checar</entry>
         <entry>7)</entry>
+        <entry>_top</entry>
       </history-search>
       <history-cmd>
         <entry>tabp</entry>
         <entry>tabn</entry>
         <entry>W</entry>
+        <entry encoding="base64">JzwsJz53</entry>
+        <entry>%s/_top/top/gc</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
