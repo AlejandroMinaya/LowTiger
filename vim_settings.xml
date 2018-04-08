@@ -102,6 +102,12 @@
         <mark key="^" line="17" column="24" />
         <mark key="." line="17" column="24" />
       </file>
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/manager/Level.java" timestamp="1523210995611">
+        <mark key="[" line="7" column="11" />
+        <mark key="]" line="7" column="9" />
+        <mark key="^" line="7" column="9" />
+        <mark key="." line="7" column="9" />
+      </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Ambiente/Ammo.java" timestamp="1520573332353">
         <mark key="[" line="2" column="18" />
         <mark key="]" line="2" column="32" />
@@ -164,6 +170,12 @@
         <mark key="]" line="22" column="0" />
         <mark key="." line="22" column="0" />
         <mark key="^" line="15" column="54" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/gameObject.java" timestamp="1523210637929">
+        <mark key="[" line="15" column="29" />
+        <mark key="]" line="16" column="14" />
+        <mark key="^" line="16" column="14" />
+        <mark key="." line="16" column="14" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Ambiente/Plataforma.java" timestamp="1520573376911">
         <mark key="[" line="1" column="0" />
@@ -259,6 +271,13 @@
         <mark key="^" line="36" column="17" />
         <mark key="." line="36" column="17" />
       </file>
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/manager/Main.java" timestamp="1523210897514">
+        <mark key="'" line="39" column="4" />
+        <mark key="[" line="5" column="23" />
+        <mark key="]" line="6" column="25" />
+        <mark key="." line="6" column="25" />
+        <mark key="^" line="6" column="25" />
+      </file>
       <file name="$USER_HOME$/IdeaProjects/POO/Lab8_Stack/src/Stack.java" timestamp="1521135557109">
         <mark key="'" line="32" column="12" />
         <mark key="[" line="29" column="0" />
@@ -338,57 +357,58 @@
       <jump line="44" column="37" filename="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/ObjetoJuego.java" />
       <jump line="33" column="4" filename="$USER_HOME$/IdeaProjects/LowTiger/src/ControladorJuego/Main.java" />
       <jump line="66" column="17" filename="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/ObjetoJuego.java" />
+      <jump line="9" column="4" filename="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/manager/Main.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBzZXREb3VibGVCdWZmZXJlZCh0cnVlKTsK</text>
+        <text encoding="base64">ICAgICAgICBwYWNrKCk7Cg==</text>
       </register>
       <register name="-" type="4">
         <text>JPanel</text>
       </register>
       <register name="/" type="4">
-        <text>JPan</text>
+        <text>d()</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBhYnN0cmFjdCBrZXlQcmVzc2VkKEtleUV2ZW50IGUpOwo=</text>
+        <text encoding="base64">ICAgICAgICBzZXRCYWNrZ3JvdW5kKG5ldyBDb2xvcigyNTUsIDI1NSwgMCkpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzZXREb3VibGVCdWZmZXJlZCh0cnVlKTsK</text>
+        <text encoding="base64">ICAgICAgICBwYWNrKCk7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIGFkZE9iamV0b0p1ZWdvKE9iamV0b0p1ZWdvIG9iaikKICAgIHsKICAgICAgICBhZGQob2JqKTsKICAgIH0KCg==</text>
+        <text encoding="base64">ICAgICAgICBwYWNrKCk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBJbWFnZUljb24gaWNvbiA9IG5ldyBJbWFnZUljb24oIi9Vc2Vycy9BbGVqYW5kcm9NaW5heWEvSWRlYVByb2plY3RzL0xvd1RpZ2VyL3NyYy9zdGF0aWMvanVnYWRvci9kZXJlY2hhLmdpZiIpOwogICAgICAgIEpMYWJlbCBsYWJlbCA9IG5ldyBKTGFiZWwoaWNvbik7CiAgICAgICAgYWRkKGxhYmVsKTsK</text>
+        <text encoding="base64">ICAgICAgICBzZXRCYWNrZ3JvdW5kKG5ldyBDb2xvcigyNTUsIDI1NSwgMCkpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICByZXBhaW50KCk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIGltYWdlVGVzdChHcmFwaGljcyBnKQogICAgewogICAgICAgIC8vVEVTVAogICAgICAgIEltYWdlSWNvbiBrID0gbmV3IEltYWdlSWNvbigiLi4vc3RhdGljL2p1Z2Fkb3IvZGVyZWNoYS5naWYiKTsKICAgICAgICBwYWludChnKTsKICAgICAgICBnLmRyYXdJbWFnZShrLmdldEltYWdlKCksIDEwMCwgMTAwLCB0aGlzKTsKCiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBzZXRTaXplKFdJTkRPV19XSURUSCwgV0lORE9XX0hFSUdIVCk7CiAgICAgICAgc2V0UmVzaXphYmxlKGZhbHNlKTsKICAgICAgICBzZXREZWZhdWx0Q2xvc2VPcGVyYXRpb24oSkZyYW1lLkVYSVRfT05fQ0xPU0UpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBwYWludChnKTsK</text>
+        <text encoding="base64">ICAgIEBPdmVycmlkZQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBqYXZhLmxhbmcuRXhjZXB0aW9uSW5Jbml0aWFsaXplckVyclZvcgo=</text>
+        <text encoding="base64">ICAgIEBPdmVycmlkZQo=</text>
       </register>
-      <register name="8" type="4">
-        <text encoding="base64">Ly9URVNUCiAgICAgICAgSW1hZ2VJY29uIGsgPSBuZXcgSW1hZ2VJY29uKCIuLi9zdGF0aWMvanVnYWRvci9kZXJlY2hhLmdpZiIpOwogICAgICAgIA==</text>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIEBPdmVycmlkZQo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBKTGFiZWwgbGFiZWwgPSBuZXcgSkxhYmVsKCk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBzZXREb3VibGVCdWZmZXJlZCh0cnVlKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>JPan</last-search>
+      <last-search>d()</last-search>
       <last-offset />
-      <last-pattern>JPan</last-pattern>
-      <last-replace>-= 10</last-replace>
-      <last-substitute>--</last-substitute>
+      <last-pattern>d()</last-pattern>
+      <last-replace>d(KeyEvent e)</last-replace>
+      <last-substitute>d()</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -406,6 +426,7 @@
         <entry>--</entry>
         <entry>loadI</entry>
         <entry>JPan</entry>
+        <entry>d()</entry>
       </history-search>
       <history-cmd>
         <entry>tabp</entry>
@@ -415,6 +436,7 @@
         <entry>W</entry>
         <entry>%s/++/+= 10/gc</entry>
         <entry>%s/--/-= 10/gc</entry>
+        <entry>%s/d()/d(KeyEvent e)/g</entry>
         <entry>w</entry>
       </history-cmd>
       <history-expr />
