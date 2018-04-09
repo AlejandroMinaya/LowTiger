@@ -37,6 +37,11 @@
         <mark key="^" line="16" column="17" />
         <mark key="." line="16" column="17" />
       </file>
+      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Actores/Jugador.java" timestamp="1523204396514">
+        <mark key="[" line="17" column="0" />
+        <mark key="]" line="17" column="0" />
+        <mark key="." line="17" column="0" />
+      </file>
       <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Figura.java" timestamp="1523244708769">
         <mark key="[" line="38" column="41" />
         <mark key="]" line="38" column="41" />
@@ -73,11 +78,10 @@
         <mark key="^" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameWindow.java" timestamp="1523288111238">
-        <mark key="[" line="45" column="3" />
-        <mark key="]" line="46" column="12" />
-        <mark key="^" line="46" column="12" />
-        <mark key="." line="46" column="12" />
+      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameWindow.java" timestamp="1523290377453">
+        <mark key="[" line="4" column="0" />
+        <mark key="]" line="4" column="0" />
+        <mark key="." line="4" column="0" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Circulo.java" timestamp="1523280936044">
         <mark key="'" line="8" column="30" />
@@ -123,11 +127,12 @@
         <mark key="^" line="2" column="32" />
         <mark key="." line="2" column="32" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/Player.java" timestamp="1523286829927">
-        <mark key="[" line="1" column="1" />
-        <mark key="]" line="9" column="40" />
-        <mark key="." line="9" column="40" />
-        <mark key="^" line="9" column="40" />
+      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/Player.java" timestamp="1523291067840">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="42" column="5" />
+        <mark key="]" line="43" column="37" />
+        <mark key="." line="43" column="37" />
+        <mark key="^" line="43" column="37" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/POO/Lab7_Vehiculo/src/Pickup.java" timestamp="1520228155058">
         <mark key="[" line="60" column="5" />
@@ -338,12 +343,12 @@
         <mark key="." line="7" column="43" />
         <mark key="^" line="7" column="43" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameObject.java" timestamp="1523287294091">
-        <mark key="'" line="14" column="16" />
-        <mark key="[" line="25" column="5" />
-        <mark key="]" line="29" column="21" />
-        <mark key="^" line="29" column="21" />
-        <mark key="." line="29" column="21" />
+      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameObject.java" timestamp="1523291006722">
+        <mark key="'" line="33" column="41" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="24" />
+        <mark key="^" line="0" column="24" />
+        <mark key="." line="0" column="24" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Player.java" timestamp="1523237826193">
         <mark key="[" line="27" column="15" />
@@ -364,11 +369,12 @@
         <mark key="." line="11" column="30" />
         <mark key="^" line="11" column="30" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" timestamp="1523287429423">
-        <mark key="[" line="21" column="7" />
-        <mark key="]" line="21" column="7" />
-        <mark key="^" line="21" column="7" />
-        <mark key="." line="21" column="7" />
+      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" timestamp="1523291860839">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="52" column="0" />
+        <mark key="." line="52" column="0" />
+        <mark key="^" line="72" column="50" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/DrawArea.java" timestamp="1523284427967">
         <mark key="'" line="10" column="15" />
@@ -457,13 +463,26 @@
       <jump line="69" column="12" filename="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/DrawArea.java" />
       <jump line="10" column="15" filename="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/DrawArea.java" />
       <jump line="14" column="16" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameObject.java" />
+      <jump line="50" column="4" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameWindow.java" />
+      <jump line="21" column="7" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
+      <jump line="25" column="27" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameWindow.java" />
+      <jump line="15" column="3" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
+      <jump line="66" column="21" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
+      <jump line="58" column="7" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
+      <jump line="5" column="22" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
+      <jump line="76" column="17" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
+      <jump line="91" column="0" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
+      <jump line="32" column="41" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameObject.java" />
+      <jump line="42" column="18" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/Player.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/Player.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text encoding="base64">ZmluYWwg</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBhZGQoY2FudmFzKTsK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ZmluYWwg</text>
+        <text encoding="base64">cHVibGljIA==</text>
       </register>
       <register name="/" type="4">
         <text>d()</text>
@@ -472,34 +491,31 @@
         <text encoding="base64">ICAgICAgICAgICAgZmlndXJhLmRyYXcoZyk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgSGl0Ym94IGhpdGJveDsK</text>
+        <text encoding="base64">ICAgICAgICBhZGQoY2FudmFzKTsK</text>
       </register>
-      <register name="2" type="8">
-        <text>p
-p
-p
-p</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBjYW52YXMucmVwYWludCgpOwo=</text>
       </register>
-      <register name="3" type="8">
-        <text encoding="base64">IHByaXZhdGUKIHByaXZhdGUKIHByaXZhdGUKIHByaXZhdGU=</text>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBnLmZpbGxPdmFsKCkK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgaW50IHdpZHRoLCBoZWlnaHQ7CiAgICBwcml2YXRlIGludCB4LCB5OwogICAgcHJpdmF0ZSBpbnQgc3RlcDsKICAgIHByaXZhdGUgSGl0Ym94IGhpdGJveDsKCiAgICBwdWJsaWMgUGxheWVyKGludCB4LCBpbnQgeSwgaW50IGhlaWdodCwgaW50IHdpZHRoLCBpbnQgc3RlcCkKICAgIHsKICAgICAgICB0aGlzLnggPSB4OwogICAgICAgIHRoaXMueSA9IHk7CiAgICAgICAgdGhpcy5oZWlnaHQgPSBoZWlnaHQ7CiAgICAgICAgdGhpcy53aWR0aCA9IHdpZHRoOwogICAgICAgIHRoaXMuc3RlcCA9IHN0ZXA7CiAgICAgICAgaGl0Ym94ID0gbmV3IEhpdGJveCh4LCB5LCB3aWR0aCwgaGVpZ2h0KTsKICAgIH0K</text>
+        <text encoding="base64">aW1wb3J0IGphdmEuYXd0LkV2ZW50UXVldWU7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">CiAgICBwdWJsaWMgdm9pZCBtb3ZlRm9yd2FyZCgpCiAgICB7CiAgICAgICAgaGl0Ym94LnNldFgoeCtzdGVwKTsKICAgICAgICBpZihoaXRib3guZ2V0Q29sbGlzaW9ucygpLnNpemUoKSA8IDEpCiAgICAgICAgewogICAgICAgICAgICB4Kz1zdGVwOwogICAgICAgIH0KICAgICAgICBoaXRib3guc2V0WCh4KTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBtb3ZlQmFjaygpCiAgICB7CiAgICAgICAgaGl0Ym94LnNldFgoeC1zdGVwKTsKICAgICAgICBpZihoaXRib3guZ2V0Q29sbGlzaW9ucygpLnNpemUoKSA8IDEpCiAgICAgICAgewogICAgICAgICAgICB4LT1zdGVwOwogICAgICAgIH0KICAgICAgICBoaXRib3guCiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oIkhlbGxvdSIpOwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAxICogZm9yd2FyZDsK</text>
+        <text encoding="base64">CiAgICB9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgaW50IHdpZHRoOwo=</text>
+        <text encoding="base64">ICAgICAgICB9KTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBFdmVudFF1ZXVlLmludm9rZUxhdGVyKCgpIC0+IHsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICB7Cg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBtYWluKFN0cmluZ1tdIGFyZ3MpCiAgICB7CiAgICAgICAgICAgICAgICAKICAgIH0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
