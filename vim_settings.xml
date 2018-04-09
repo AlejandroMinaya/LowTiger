@@ -37,11 +37,6 @@
         <mark key="^" line="16" column="17" />
         <mark key="." line="16" column="17" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Actores/Jugador.java" timestamp="1523204396514">
-        <mark key="[" line="17" column="0" />
-        <mark key="]" line="17" column="0" />
-        <mark key="." line="17" column="0" />
-      </file>
       <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Figura.java" timestamp="1523244708769">
         <mark key="[" line="38" column="41" />
         <mark key="]" line="38" column="41" />
@@ -121,6 +116,12 @@
         <mark key="]" line="2" column="32" />
         <mark key="^" line="2" column="32" />
         <mark key="." line="2" column="32" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/Player.java" timestamp="1523286117473">
+        <mark key="[" line="35" column="9" />
+        <mark key="]" line="36" column="22" />
+        <mark key="." line="36" column="22" />
+        <mark key="^" line="36" column="22" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/POO/Lab7_Vehiculo/src/Pickup.java" timestamp="1520228155058">
         <mark key="[" line="60" column="5" />
@@ -203,6 +204,12 @@
         <mark key="]" line="1" column="30" />
         <mark key="^" line="1" column="30" />
         <mark key="." line="1" column="30" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/Hitbox.java" timestamp="1523285663018">
+        <mark key="[" line="10" column="11" />
+        <mark key="]" line="10" column="15" />
+        <mark key="^" line="10" column="15" />
+        <mark key="." line="10" column="15" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/Actores/Enemigo.java" timestamp="1520559138414">
         <mark key="[" line="0" column="0" />
@@ -350,11 +357,12 @@
         <mark key="." line="11" column="30" />
         <mark key="^" line="11" column="30" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/DrawArea.java" timestamp="1523284369975">
+      <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/DrawArea.java" timestamp="1523284427967">
         <mark key="'" line="10" column="15" />
         <mark key="[" line="54" column="26" />
-        <mark key="]" line="56" column="0" />
-        <mark key="." line="56" column="0" />
+        <mark key="]" line="55" column="22" />
+        <mark key="." line="55" column="22" />
+        <mark key="^" line="55" column="22" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Actores/Secuaz.java" timestamp="1520573086699">
         <mark key="[" line="2" column="20" />
@@ -438,10 +446,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybjsK</text>
+        <text encoding="base64">CiAgICBwdWJsaWMgdm9pZCBtb3ZlRm9yd2FyZCgpCiAgICB7CiAgICAgICAgaGl0Ym94LnNldFgoeCtzdGVwKTsKICAgICAgICBpZihoaXRib3guZ2V0Q29sbGlzaW9ucygpLnNpemUoKSA8IDEpCiAgICAgICAgewogICAgICAgICAgICB4Kz1zdGVwOwogICAgICAgIH0KICAgICAgICBoaXRib3guc2V0WCh4KTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBtb3ZlQmFjaygpCiAgICB7CiAgICAgICAgaGl0Ym94LnNldFgoeC1zdGVwKTsKICAgICAgICBpZihoaXRib3guZ2V0Q29sbGlzaW9ucygpLnNpemUoKSA8IDEpCiAgICAgICAgewogICAgICAgICAgICB4LT1zdGVwOwogICAgICAgIH0KICAgICAgICBoaXRib3guCiAgICB9Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>color)</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>d()</text>
@@ -450,31 +458,31 @@
         <text encoding="base64">ICAgICAgICAgICAgZmlndXJhLmRyYXcoZyk7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIHJldHVybjsK</text>
+        <text encoding="base64">CiAgICBwdWJsaWMgdm9pZCBtb3ZlRm9yd2FyZCgpCiAgICB7CiAgICAgICAgaGl0Ym94LnNldFgoeCtzdGVwKTsKICAgICAgICBpZihoaXRib3guZ2V0Q29sbGlzaW9ucygpLnNpemUoKSA8IDEpCiAgICAgICAgewogICAgICAgICAgICB4Kz1zdGVwOwogICAgICAgIH0KICAgICAgICBoaXRib3guc2V0WCh4KTsKICAgIH0KCiAgICBwdWJsaWMgdm9pZCBtb3ZlQmFjaygpCiAgICB7CiAgICAgICAgaGl0Ym94LnNldFgoeC1zdGVwKTsKICAgICAgICBpZihoaXRib3guZ2V0Q29sbGlzaW9ucygpLnNpemUoKSA8IDEpCiAgICAgICAgewogICAgICAgICAgICB4LT1zdGVwOwogICAgICAgIH0KICAgICAgICBoaXRib3guCiAgICB9Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpbnQgcmFuZG9tV2lkdGggPSByLm5leHRJbnQoMTAxKTsKICAgICAgICAgICAgICAgICAgICBpbnQgcmFuZG9tSGVpZ2h0ID0gci5uZXh0SW50KDEwMSk7CiAgICAgICAgICAgICAgICAgICAgaWYoci5uZXh0Qm9vbGVhbigpKQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgZmlndXJhcy5hZGQobmV3IEN1YWRyYWRvKG1vdXNlWC1yYW5kb21XaWR0aC8yLCBtb3VzZVktcmFuZG9tSGVpZ2h0LzIsIHJhbmRvbVdpZHRoLCByYW5kb21IZWlnaHQpKTsKICAgICAgICAgICAgICAgICAgICB9ZWxzZQogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgZmlndXJhcy5hZGQobmV3IENpcmN1bG8obW91c2VYLXJhbmRvbUhlaWdodC8yLCBtb3VzZVktcmFuZG9tSGVpZ2h0LzIsIHJhbmRvbUhlaWdodCkpOwogICAgICAgICAgICAgICAgICAgIH0K</text>
+        <text encoding="base64">ICAgICAgICAxICogZm9yd2FyZDsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgIHByaXZhdGUgaW50IHdpZHRoOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrOwo=</text>
+        <text encoding="base64">ICAgICAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIH0pOwo=</text>
+        <text encoding="base64">ICAgICAgICB7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICAgICBpbnQgcmFuZG9tV2lkdGggPSByLm5leHRJbnQoMTAxKTsKICAgICAgICAgICAgICAgICAgICBpbnQgcmFuZG9tSGVpZ2h0ID0gci5uZXh0SW50KDEwMSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBlbAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIEV2ZW50UXVldWUuaW52b2tlTGF0ZXIoKCktPnsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaGl0Ym94LnNldFgoeCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZWxzZSB7Cg==</text>
+        <text encoding="base64">ICAgICAgICBIaXRib3ggbmV4dFN0ZXAgPSBuZGRldyBIaXRib3goeCArIHN0ZXAsIHksIGhlaWdodCwgd2lkdGgpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIGJyZWFrOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnRpbnVlOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
