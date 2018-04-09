@@ -191,12 +191,12 @@
         <mark key="^" line="16" column="14" />
         <mark key="." line="16" column="14" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Ventana.java" timestamp="1523246397911">
-        <mark key="'" line="20" column="4" />
-        <mark key="[" line="54" column="9" />
-        <mark key="]" line="56" column="24" />
-        <mark key="^" line="56" column="24" />
-        <mark key="." line="56" column="24" />
+      <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Ventana.java" timestamp="1523248155635">
+        <mark key="'" line="7" column="0" />
+        <mark key="[" line="34" column="31" />
+        <mark key="]" line="35" column="26" />
+        <mark key="." line="35" column="26" />
+        <mark key="^" line="35" column="26" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Ambiente/Plataforma.java" timestamp="1520573376911">
         <mark key="[" line="1" column="0" />
@@ -324,10 +324,11 @@
         <mark key="^" line="21" column="17" />
         <mark key="." line="21" column="17" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Main.java" timestamp="1523244075016">
-        <mark key="]" line="4" column="39" />
-        <mark key="^" line="4" column="39" />
-        <mark key="." line="4" column="39" />
+      <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Main.java" timestamp="1523248304303">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="5" column="39" />
+        <mark key="^" line="5" column="39" />
+        <mark key="." line="5" column="39" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Player.java" timestamp="1523237826193">
         <mark key="[" line="27" column="15" />
@@ -420,13 +421,14 @@
       <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Ventana.java" />
       <jump line="39" column="41" filename="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Ventana.java" />
       <jump line="20" column="4" filename="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Ventana.java" />
+      <jump line="7" column="0" filename="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Ventana.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgY2hhbmdlQ29sb3IgPSBmYWxzZTsK</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oInZhbW8gYSBhYnVzYXIiKTsK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">ZmluYWwg</text>
+        <text>250</text>
       </register>
       <register name="/" type="4">
         <text>d()</text>
@@ -435,34 +437,34 @@
         <text encoding="base64">ICAgICAgICBlbGVtZW50cy5hZGQobmV3IEdhbWVPYmplY3QoMTAsMCwxMCwxMCkpOwo=</text>
       </register>
       <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oInZhbW8gYSBhYnVzYXIiKTsK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oImFzZmQiKTsK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBjYW52YXMuCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKGZpZ3VyYS5nZXRDb2xvcigpLnRvU3RyaW5nKCkpOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigia2xrIik7Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICBjaGFuZ2VDb2xvciA9IGZhbHNlOwo=</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgY2hhbmdlQ29sb3IgPSBmYWxzZTsK</text>
       </register>
-      <register name="2" type="8">
+      <register name="8" type="8">
         <text encoding="base64">IAogCiAKIA==</text>
       </register>
-      <register name="3" type="8">
+      <register name="9" type="8">
         <text>static
 static
 static
 static</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzdXBlci5kcmF3KGcpOwo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBzdXBlci5kcmF3KGcpOwo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIH0K</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHsK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBnLnNldENvbG9yKGNvbG9yKTsK</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyBzdGF0aWMgdm9pZCBtYWluKFN0cmluZ1tdIGFyZ3MpCiAgICB7CiAgICAgICAgaW5pdCgpOwogICAgfQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
