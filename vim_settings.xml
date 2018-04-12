@@ -127,11 +127,11 @@
         <mark key="^" line="2" column="32" />
         <mark key="." line="2" column="32" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/Player.java" timestamp="1523543706165">
-        <mark key="[" line="31" column="25" />
-        <mark key="]" line="31" column="27" />
-        <mark key="^" line="31" column="27" />
-        <mark key="." line="31" column="27" />
+      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/Player.java" timestamp="1523545650718">
+        <mark key="[" line="31" column="13" />
+        <mark key="]" line="31" column="21" />
+        <mark key="." line="31" column="21" />
+        <mark key="^" line="31" column="21" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/POO/Lab7_Vehiculo/src/Pickup.java" timestamp="1520228155058">
         <mark key="[" line="60" column="5" />
@@ -215,7 +215,7 @@
         <mark key="^" line="1" column="30" />
         <mark key="." line="1" column="30" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/Hitbox.java" timestamp="1523542182579">
+      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/Hitbox.java" timestamp="1523545248691">
         <mark key="[" line="26" column="5" />
         <mark key="]" line="27" column="26" />
         <mark key="^" line="27" column="26" />
@@ -306,7 +306,7 @@
         <mark key="^" line="20" column="15" />
         <mark key="." line="20" column="15" />
       </file>
-      <file name="/Dummy.txt" timestamp="1521127068022">
+      <file name="/Dummy.txt" timestamp="1523545876529">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Cuadrado.java" timestamp="1523244719585">
@@ -374,12 +374,12 @@
         <mark key="." line="11" column="30" />
         <mark key="^" line="11" column="30" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" timestamp="1523544695138">
-        <mark key="'" line="22" column="8" />
-        <mark key="[" line="68" column="0" />
-        <mark key="]" line="68" column="0" />
-        <mark key="." line="68" column="0" />
-        <mark key="^" line="73" column="7" />
+      <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" timestamp="1523545417918">
+        <mark key="'" line="12" column="5" />
+        <mark key="[" line="14" column="4" />
+        <mark key="]" line="14" column="9" />
+        <mark key="." line="14" column="9" />
+        <mark key="^" line="14" column="9" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/DrawArea.java" timestamp="1523284427967">
         <mark key="'" line="10" column="15" />
@@ -487,46 +487,47 @@
       <jump line="1" column="23" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/Player.java" />
       <jump line="8" column="0" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
       <jump line="21" column="8" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
+      <jump line="12" column="5" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBidWZmZXJHcmFwaGljcy5jbGVhclJlY3QoMCwwLCBXSU5ET1dfV0lEVEgsIFdJTkRPV19IRUlHSFQpOwo=</text>
+      <register name="&quot;" type="4">
+        <text>HEIGHT</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">V0lORE9XX1dJRFRILCA=</text>
+        <text>HEIGHT</text>
       </register>
       <register name="/" type="4">
         <text>ini</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBhZGRHYW1lT2JqZWN0KG5ldyBPYnN0YWNsZShXSU5ET1dfV0lEVEgsIFdJTkRPV19IRUlHSFQsIDAsIDApKTsK</text>
+        <text encoding="base64">ICAgICAgICBpZih5ICsgc3RlcCpkaXJlY3Rpb24gPCBHYW1lTWFuYWdlci5XSU5ET1dfSEVJR0hUICYmIHkgKyBzdGVwKmRpcmVjdGlvbiA+IDApCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBidWZmZXJHcmFwaGljcy5jbGVhclJlY3QoMCwwLCBXSU5ET1dfV0lEVEgsIFdJTkRPV19IRUlHSFQpOwo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBnLnNldENvbG9yKENvbG9yLldISVRFKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBhZGRHYW1lT2JqZWN0KG5ldyBPYnN0YWNsZSgwLCAtMTAwLCBXSU5ET1dfV0lEVEgsIDUwKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBoaXRib3guc2V0WSh5ICsgc3RlcCpkaXJlY3Rpb24pOwogICAgICAgIGlmKGhpdGJveC5nZXRDb2xsaXNpb25zKCkuc2l6ZSgpIDwgMSkKICAgICAgICB7CiAgICAgICAgICAgIHkgKz0gc3RlcCpkaXJlY3Rpb247CiAgICAgICAgfQogICAgICAgIGhpdGJveC5zZXRZKHkpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBhZGRHYW1lT2JqZWN0KG5ldyBPYnN0YWNsZShXSU5ET1dfV0lEVEgsIDAsIDUwLCBXSU5ET1dfSEVJR0hUKSk7Cg==</text>
+        <text encoding="base64">ICAgICAgICBidWZmZXJHcmFwaGljcy5jbGVhclJlY3QoMCwgMCwgV0lORE9XX1dJRFRILCBXSU5ET1dfSEVJR0hUKTsK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBhZGRHYW1lT2JqZWN0KG5ldyBPYnN0YWNsZSgwLCBXSU5ET1dfSEVJR0hULCBXSU5ET1dfV0lEVEgsIDEwMCkpOwo=</text>
+        <text encoding="base64">ICAgICAgICBidWZmZXIK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBhZGRHYW1lT2JqZWN0KG5ldyBPYnN0YWNsZSgtMjAwLCAwLCAxMDAsIFdJTkRPV19IRUlHSFQpKTsK</text>
+        <text encoding="base64">ICAgICAgICBidWZmZXIuc2V0UkdCKDI1NSwyNTUsMjU1KTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEuYXd0LmV2ZW50LkFjdGlvbkxpc3RlbmVyOwo=</text>
+        <text encoding="base64">ICAgICAgICBidWZmZXIuc2V0UkdCKDI1NSwyNTUsMjU1KTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmEuYXd0LmV2ZW50LkFjdGlvbkV2ZW50Owo=</text>
+        <text encoding="base64">ICAgICAgICBidWZmZXJHcmFwaGljcy5jbGVhclJlY3QoMCwwLCBXSU5ET1dfV0lEVEgsIFdJTkRPV19IRUlHSFQpOwo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">aW1wb3J0IGphdmF4LnN3aW5nLlRpbWVyOwo=</text>
+        <text encoding="base64">ICAgICAgICBnLnNldENvbG9yKENvbG9yLldISVRFKTsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
