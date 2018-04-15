@@ -114,12 +114,12 @@
         <mark key="^" line="17" column="24" />
         <mark key="." line="17" column="24" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/manager/Level.java" timestamp="1523238831636">
-        <mark key="'" line="95" column="0" />
-        <mark key="[" line="61" column="0" />
-        <mark key="]" line="61" column="0" />
-        <mark key="^" line="17" column="36" />
-        <mark key="." line="61" column="0" />
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/manager/Level.java" timestamp="1523819510021">
+        <mark key="'" line="43" column="25" />
+        <mark key="[" line="58" column="0" />
+        <mark key="]" line="58" column="0" />
+        <mark key="^" line="60" column="21" />
+        <mark key="." line="58" column="0" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Ambiente/Ammo.java" timestamp="1520573332353">
         <mark key="[" line="2" column="18" />
@@ -300,11 +300,12 @@
         <mark key="^" line="4" column="3" />
         <mark key="." line="4" column="3" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Actor.java" timestamp="1523214274420">
-        <mark key="[" line="20" column="9" />
-        <mark key="]" line="20" column="15" />
-        <mark key="^" line="20" column="15" />
-        <mark key="." line="20" column="15" />
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Actor.java" timestamp="1523818954651">
+        <mark key="'" line="26" column="0" />
+        <mark key="[" line="22" column="14" />
+        <mark key="]" line="22" column="15" />
+        <mark key="^" line="22" column="15" />
+        <mark key="." line="22" column="15" />
       </file>
       <file name="/Dummy.txt" timestamp="1523545876529">
         <mark key="[" line="0" column="0" />
@@ -355,11 +356,10 @@
         <mark key="." line="49" column="0" />
         <mark key="^" line="49" column="0" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Player.java" timestamp="1523237826193">
-        <mark key="[" line="27" column="15" />
-        <mark key="]" line="27" column="13" />
-        <mark key="." line="27" column="13" />
-        <mark key="^" line="27" column="13" />
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Player.java" timestamp="1523819138268">
+        <mark key="[" line="22" column="0" />
+        <mark key="]" line="22" column="0" />
+        <mark key="." line="22" column="0" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Actores/Yakuza.java" timestamp="1520573102450">
         <mark key="[" line="2" column="20" />
@@ -488,13 +488,16 @@
       <jump line="8" column="0" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
       <jump line="21" column="8" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
       <jump line="12" column="5" filename="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameManager.java" />
+      <jump line="43" column="25" filename="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/manager/Level.java" />
+      <jump line="20" column="12" filename="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Actor.java" />
+      <jump line="23" column="0" filename="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Actor.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>HEIGHT</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgUExBWUVSLm1vdmUodHJ1ZSk7Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>HEIGHT</text>
+        <text>=step;</text>
       </register>
       <register name="/" type="4">
         <text>ini</text>
@@ -503,31 +506,31 @@
         <text encoding="base64">ICAgICAgICBpZih5ICsgc3RlcCpkaXJlY3Rpb24gPCBHYW1lTWFuYWdlci5XSU5ET1dfSEVJR0hUICYmIHkgKyBzdGVwKmRpcmVjdGlvbiA+IDApCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgUExBWUVSLm1vdmUodHJ1ZSk7Cg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbihQTEFZRVIuZ2V0WCgpKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBoaXRib3guc2V0WSh5ICsgc3RlcCpkaXJlY3Rpb24pOwogICAgICAgIGlmKGhpdGJveC5nZXRDb2xsaXNpb25zKCkuc2l6ZSgpIDwgMSkKICAgICAgICB7CiAgICAgICAgICAgIHkgKz0gc3RlcCpkaXJlY3Rpb247CiAgICAgICAgfQogICAgICAgIGhpdGJveC5zZXRZKHkpOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBidWZmZXJHcmFwaGljcy5jbGVhclJlY3QoMCwgMCwgV0lORE9XX1dJRFRILCBXSU5ET1dfSEVJR0hUKTsK</text>
+        <text encoding="base64">ICAgIHB1YmxpYyBpbnQgZ2V0WCgpCiAgICB7CiAgICAgICAgcmV0dXJuIHg7CiAgICB9Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBidWZmZXIK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBidWZmZXIuc2V0UkdCKDI1NSwyNTUsMjU1KTsK</text>
+        <text encoding="base64">ICAgICAgICB4LT1zdGVwOwo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBidWZmZXIuc2V0UkdCKDI1NSwyNTUsMjU1KTsK</text>
+        <text encoding="base64">ICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oZm9yd2FyZCk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBidWZmZXJHcmFwaGljcy5jbGVhclJlY3QoMCwwLCBXSU5ET1dfV0lEVEgsIFdJTkRPV19IRUlHSFQpOwo=</text>
+        <text encoding="base64">ICAgICAgICBzdGVwID0gMTA7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBnLnNldENvbG9yKENvbG9yLldISVRFKTsK</text>
+        <text encoding="base64">ICAgICAgICBjYW52YXMucmVwYWludCgpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
