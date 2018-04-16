@@ -125,7 +125,6 @@
         <mark key="^" line="3" column="0" />
         <mark key="." line="3" column="0" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Main.java" timestamp="1523888282154" />
       <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameWindow.java" timestamp="1523290377453">
         <mark key="[" line="4" column="0" />
         <mark key="]" line="4" column="0" />
@@ -451,11 +450,11 @@
         <mark key="." line="44" column="19" />
         <mark key="^" line="44" column="19" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/environment/Item.java" timestamp="1523886662527">
-        <mark key="[" line="21" column="51" />
-        <mark key="]" line="27" column="28" />
+      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/environment/Item.java" timestamp="1523899701260">
+        <mark key="[" line="30" column="0" />
+        <mark key="]" line="30" column="0" />
         <mark key="^" line="27" column="28" />
-        <mark key="." line="27" column="28" />
+        <mark key="." line="30" column="0" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Actores/Yakuza.java" timestamp="1520573102450">
         <mark key="[" line="2" column="20" />
@@ -605,7 +604,7 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHsK</text>
       </register>
       <register name="-" type="4">
         <text>public</text>
@@ -617,38 +616,32 @@
         <text encoding="base64">ICAgICAgICBkeCArPSByLm5leHRJbnQoMTApOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBBcnJheUxpc3Q8Q2lyY2xlPiBjaXJjbGVzID0gQm9hcmQuZ2V0SW5zdGFuY2UoKS5nZXRDaXJjbGVzKCk7CgogICAgICAgIGZvcihDaXJjbGUgY2lyY2xlIDogY2lyY2xlcykKICAgICAgICB7CiAgICAgICAgICAgIGlmKCFjaXJjbGUuZXF1YWxzKHRoaXMpKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBSZWN0YW5nbGUgc2hhbGxvd0hpdGJveCA9IG5ldyBSZWN0YW5nbGUoeCArIGR4LCB5ICsgZHksIHdpZHRoLCBoZWlnaHQpOwogICAgICAgICAgICAgICAgaWYoY2lyY2xlLmdldEhpdGJveCgpLmludGVyc2VjdHMoc2hhbGxvd0hpdGJveCkpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgZHggKj0gLTE7CiAgICAgICAgICAgICAgICAgICAgZHkgKj0gLTE7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNldFN0YXRlKFN0cmluZyBzdGF0ZSkK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigia2xrIik7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBBcnJheUxpc3Q8Q2lyY2xlPiBjaXJjbGVzID0gQm9hcmQuZ2V0SW5zdGFuY2UoKS5nZXRDaXJjbGVzKCk7CgogICAgICAgIGZvcihDaXJjbGUgY2lyY2xlIDogY2lyY2xlcykKICAgICAgICB7CiAgICAgICAgICAgIGlmKCFjaXJjbGUuZXF1YWxzKHRoaXMpKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBSZWN0YW5nbGUgc2hhbGxvd0hpdGJveCA9IG5ldyBSZWN0YW5nbGUoeCArIGR4LCB5ICsgZHksIHdpZHRoLCBoZWlnaHQpOwogICAgICAgICAgICAgICAgaWYoY2lyY2xlLmdldEhpdGJveCgpLmludGVyc2VjdHMoc2hhbGxvd0hpdGJveCkpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgZHggKj0gLTE7CiAgICAgICAgICAgICAgICAgICAgZHkgKj0gLTE7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigia2xrIik7Cg==</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">ICAgIEBPdmVyZGRkcgo=</text>
       </register>
-      <register name="5" type="4">
+      <register name="7" type="4">
         <text>ide
     public boolean equals</text>
       </register>
-      <register name="6" type="2">
+      <register name="8" type="2">
         <text encoding="base64">ICAgIHByaXZhdGUgaW50IGR4OwogICAgcHJpdmF0ZSBpbnQgZHk7Cg==</text>
       </register>
-      <register name="7" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICBpZihCb2FyZC5nZXRJbnN0YW5jZSgpLmdldENpcmNsZXMoKSkK</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="9" type="4">
-        <text>private void collideBalls()
-    {
-        for(Circle ball : circles)
-        {
-            ba
-        }
-    }</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
