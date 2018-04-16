@@ -54,6 +54,12 @@
         <mark key="]" line="17" column="0" />
         <mark key="." line="17" column="0" />
       </file>
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/environment/Firearm.java" timestamp="1523859563494">
+        <mark key="[" line="17" column="30" />
+        <mark key="]" line="17" column="25" />
+        <mark key="^" line="17" column="25" />
+        <mark key="." line="17" column="25" />
+      </file>
       <file name="$USER_HOME$/IdeaProjects/POO/CirclePointer/src/Figura.java" timestamp="1523244708769">
         <mark key="[" line="38" column="41" />
         <mark key="]" line="38" column="41" />
@@ -90,6 +96,11 @@
         <mark key="]" line="3" column="0" />
         <mark key="^" line="3" column="0" />
         <mark key="." line="3" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/environment/Bullet.java" timestamp="1523859812671">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="16" column="0" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Ambiente/Velocidad.java" timestamp="1520573811569">
         <mark key="[" line="3" column="1" />
@@ -133,12 +144,12 @@
         <mark key="^" line="17" column="24" />
         <mark key="." line="17" column="24" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/manager/Level.java" timestamp="1523855671336">
-        <mark key="'" line="9" column="25" />
-        <mark key="[" line="28" column="31" />
-        <mark key="]" line="28" column="30" />
-        <mark key="^" line="28" column="30" />
-        <mark key="." line="28" column="30" />
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/manager/Level.java" timestamp="1523859497648">
+        <mark key="'" line="10" column="25" />
+        <mark key="[" line="29" column="29" />
+        <mark key="]" line="29" column="32" />
+        <mark key="^" line="29" column="32" />
+        <mark key="." line="29" column="32" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Ambiente/Ammo.java" timestamp="1520573332353">
         <mark key="[" line="2" column="18" />
@@ -327,10 +338,10 @@
         <mark key="^" line="4" column="3" />
         <mark key="." line="4" column="3" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Actor.java" timestamp="1523857433138">
-        <mark key="[" line="127" column="0" />
-        <mark key="]" line="127" column="0" />
-        <mark key="." line="127" column="0" />
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Actor.java" timestamp="1523860053964">
+        <mark key="[" line="148" column="0" />
+        <mark key="]" line="148" column="0" />
+        <mark key="." line="148" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1523545876529">
         <mark key="[" line="0" column="0" />
@@ -381,11 +392,11 @@
         <mark key="." line="49" column="0" />
         <mark key="^" line="49" column="0" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Player.java" timestamp="1523856535969">
-        <mark key="[" line="28" column="0" />
-        <mark key="]" line="28" column="0" />
-        <mark key="." line="28" column="0" />
-        <mark key="^" line="40" column="18" />
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Player.java" timestamp="1523858907697">
+        <mark key="[" line="41" column="9" />
+        <mark key="]" line="44" column="19" />
+        <mark key="." line="44" column="19" />
+        <mark key="^" line="44" column="19" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Actores/Yakuza.java" timestamp="1520573102450">
         <mark key="[" line="2" column="20" />
@@ -393,12 +404,12 @@
         <mark key="^" line="2" column="34" />
         <mark key="." line="2" column="34" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/environment/Item.java" timestamp="1523856206402">
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/environment/Item.java" timestamp="1523858584060">
         <mark key="'" line="37" column="18" />
-        <mark key="[" line="50" column="0" />
-        <mark key="]" line="50" column="49" />
-        <mark key="^" line="40" column="48" />
-        <mark key="." line="50" column="0" />
+        <mark key="[" line="51" column="5" />
+        <mark key="]" line="55" column="7" />
+        <mark key="^" line="55" column="7" />
+        <mark key="." line="55" column="7" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ControladorJuego/MainMenu.java" timestamp="1523207209512">
         <mark key="'" line="34" column="4" />
@@ -535,43 +546,43 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXF1aXAoaGl0Ym94LmdldEl0ZW1zKCkuZ2V0KDApKTsK</text>
       </register>
       <register name="-" type="4">
-        <text>,</text>
+        <text>}</text>
       </register>
       <register name="/" type="4">
         <text>move</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgaWYoaGl0Ym94LmdldEl0ZW1zKCkuc2l6ZSgpID4gMCkKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgZXF1aXAoaGl0Ym94LmdldEl0ZW1zKCkuZ2V0KDApKTsKICAgICAgICAgICAgfQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmKGVxdWlwcGVkSXRlbSA9PSBudWxsKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIGVxdWlwKGhpdGJveC5nZXRJdGVtcygpLmdldCgwKSk7CiAgICAgICAgICAgICAgICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZXF1aXAoaGl0Ym94LmdldEl0ZW1zKCkuZ2V0KDApKTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgZmFjaW5nUmlnaHQgPSByZWxlYXNlZEtleXNbMF07Cg==</text>
+        <text encoding="base64">ICAgIHsKICAgICAgICBlcXVpcHBlZEl0ZW0gPSBpdGVtOwo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHByb3RlY3RlZCBib29sZWFuIGZhY2luZ1JpZ2h0ID0gdHVyOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBpbnQgeE9mZnNldDsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBpZihkeCA+IDApe30K</text>
+        <text encoding="base64">ICAgICAgICBkcm9wKCk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGVxdWlwKGhpdGJveC5nZXRJdGVtcygpLmdldCgwKSk7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuOwo=</text>
+        <text encoding="base64">ICAgICAgICBtb3ZlKCk7Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgcmV0dXJuOwo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -629,6 +640,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed I</text>
       </shortcut-conflict>
     </shortcut-conflicts>
     <editor>
