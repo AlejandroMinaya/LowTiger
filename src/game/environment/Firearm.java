@@ -8,9 +8,9 @@ public class Firearm extends Item
         super();
     }
 
-    public Firearm(int x, int y, int width, int height)
+    public Firearm(int x, int y, int width, int height, int damage)
     {
-        super(x, y, width, height);
+        super(x, y, width, height, damage);
     }
 
     public int getBulletSpeed()

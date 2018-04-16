@@ -6,8 +6,7 @@ import javax.swing.*;
 import java.util.ArrayList;
 
 import game.GameObject;
-import game.actor.Actor;
-import game.actor.Player;
+import game.actor.*;
 import game.environment.*;
 
 public class Level extends JPanel implements Runnable
@@ -26,8 +25,10 @@ public class Level extends JPanel implements Runnable
         add(canvas);
 
         elements.add(PLAYER);
+        elements.add(new Enemy(300, 500, 50, 100, 100, 50, 10, "yakuza"));
         elements.add(new Ground(0, Main.WINDOW_HEIGHT - 80, Main.WINDOW_WIDTH, 100));
-        elements.add(new Firearm(400, Main.WINDOW_HEIGHT - 150, 50, 50));
+        elements.add(new Firearm(400, Main.WINDOW_HEIGHT - 150, 50, 50, 10));
+        elements.add(new Ground(500, 500, 200, 100));
     }
 
     public void addComponent(GameObject gobj)
@@ -49,6 +50,8 @@ public class Level extends JPanel implements Runnable
                 Actor actor = (Actor) element;
                 actor.move();
                 actor.jump();
+                actor.hurt();
+                actor.equip();
             }
             else if(element instanceof Item)
             {

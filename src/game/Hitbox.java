@@ -117,6 +117,29 @@ public class Hitbox extends Rectangle
         return null;
     }
 
+    public int getDamage()
+    {
+        ArrayList<GameObject> elements = Main.getInstance().getCurrentLevel().getElements();
+        for(GameObject element : elements)
+        {
+            if(element instanceof Bullet) //ADD MELEE WEAPON
+            {
+                Hitbox elementHitbox = element.getHitbox();
+                if(!elementHitbox.equals(this) && elementHitbox.intersects(this))
+                {
+                    if(element instanceof Bullet)
+                    {
+                        ((Bullet) element).collide();
+                    }
+                    return ((Item)element).getDamage();
+                }
+            }
+
+        }
+        return 0;
+
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

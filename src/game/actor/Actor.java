@@ -89,13 +89,12 @@ public abstract class Actor extends GameObject
     {
         if(equippedItem != null && equippedItem instanceof Firearm)
         {
-            System.out.println("Shoot");
             int speed = ((Firearm) equippedItem).getBulletSpeed();
             if(!facingRight)
             {
                 speed *= -1;
             }
-            Main.getInstance().getCurrentLevel().addComponent(new Bullet(raycast.getRaycastX1(), raycast.getRaycastY1(), 10, 5, speed));
+            Main.getInstance().getCurrentLevel().addComponent(new Bullet(raycast.getRaycastX2(), raycast.getRaycastY1(), 10, 5, speed, equippedItem.getDamage()));
         }
     }
 
@@ -125,13 +124,6 @@ public abstract class Actor extends GameObject
                 hitbox.setX(x);
                 raycast.setX(x + width/2, facingRight);
             }
-            if(hitbox.getItems().size() > 0)
-            {
-                if(equippedItem == null)
-                {
-                    equip(hitbox.getItems().get(0));
-                }
-            }
         }
     }
 
@@ -139,14 +131,6 @@ public abstract class Actor extends GameObject
     {
         Hitbox tmpHitbox = hitbox;
         tmpHitbox.setY(y + gravity);
-
-        if(hitbox.getItems().size() > 0)
-        {
-            if(equippedItem == null)
-            {
-                equip(hitbox.getItems().get(0));
-            }
-        }
 
         if(jumping && tmpHitbox.isCollidingGround())
         {
@@ -184,6 +168,34 @@ public abstract class Actor extends GameObject
         }
         hitbox.setY(y);
         raycast.setY(y + height/3);
+    }
+
+    public void hurt()
+    {
+        System.out.println(character + ": " + health);
+        if(health <=0 )
+        {
+            x = 0;
+            y = 0;
+            width = 0;
+            height = 0;
+            hitbox = new Hitbox(0,0,0,0);
+            raycast = new Raycast(0,0,0);
+        }
+        else{
+            health -= hitbox.getDamage();
+        }
+    }
+
+    public void equip()
+    {
+        if(hitbox.getItems().size() > 0)
+        {
+            if(equippedItem == null)
+            {
+                equip(hitbox.getItems().get(0));
+            }
+        }
     }
 
 

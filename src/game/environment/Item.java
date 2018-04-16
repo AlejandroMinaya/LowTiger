@@ -10,6 +10,7 @@ public class Item extends GameObject
     private String state;
     private int unequippedHeight;
     private int getUnequippedWidth;
+    private int damage;
     public Item()
     {
         super();
@@ -18,12 +19,13 @@ public class Item extends GameObject
         getUnequippedWidth = 0;
     }
 
-    public Item(int x, int y, int width, int height)
+    public Item(int x, int y, int width, int height, int damage)
     {
         super(x, y, width, height);
         unequippedHeight = height;
         getUnequippedWidth = width;
         state = "unequipped";
+        this.damage = damage;
     }
 
     public void setState(String state)
@@ -54,6 +56,11 @@ public class Item extends GameObject
     public void move()
     {
 
+    }
+
+    public int getDamage()
+    {
+        return damage;
     }
 
     @Override
