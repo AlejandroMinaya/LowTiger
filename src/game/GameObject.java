@@ -9,6 +9,7 @@ import java.awt.Color;
 public class GameObject extends JPanel
 {
     protected int x, y;
+    protected int lastX, lastY;
     protected int width, height;
     protected Hitbox hitbox;
 
@@ -16,9 +17,12 @@ public class GameObject extends JPanel
     {
         x = 0;
         y = 0;
+        lastX = 0;
+        lastY = 0;
         width = 0;
         height = 0;
         hitbox = new Hitbox(0,0,0,0);
+        init();
     }
 
     public GameObject(int x, int y, int width, int height)
@@ -68,6 +72,9 @@ public class GameObject extends JPanel
 
     public void draw(Graphics g)
     {
+        if(x == lastX && y == lastY)
+            return;
+
         if(Main.DEBUG)
         {
             g.setColor(new Color(0, 255, 0));
