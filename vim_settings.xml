@@ -399,10 +399,11 @@
         <mark key="^" line="4" column="3" />
         <mark key="." line="4" column="3" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Actor.java" timestamp="1523860053964">
-        <mark key="[" line="148" column="0" />
-        <mark key="]" line="148" column="0" />
-        <mark key="." line="148" column="0" />
+      <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/actor/Actor.java" timestamp="1524025055585">
+        <mark key="[" line="57" column="35" />
+        <mark key="]" line="57" column="28" />
+        <mark key="." line="57" column="28" />
+        <mark key="^" line="57" column="28" />
       </file>
       <file name="/Dummy.txt" timestamp="1523888013353">
         <mark key="[" line="0" column="0" />
@@ -624,8 +625,8 @@
       <jump line="66" column="5" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Main.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>../../LowTigerGame/src/static/player/idle.gif</text>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICBzcHJpdGVzLnB1dCgiaWRsZSIsICJzdGF0aWMvcGxheWVyL2lkbGUuZ2lmaGFyYWN0ZXIrIi9pZGxlLnBuZyIpOwo=</text>
       </register>
       <register name="-" type="4">
         <text>../../LowTigerGame/src/static/player/idle.gif</text>
@@ -634,34 +635,34 @@
         <text>add(</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBkeCArPSByLm5leHRJbnQoMTApOwo=</text>
+        <text encoding="base64">ICAgICAgICBzcHJpdGVzLnB1dCgiaWRsZSIsICIuLi8uLi9zdGF0aWMvIitjaGFyYWN0ZXIrIi9pZGxlLnBuZyIpOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBzcHJpdGVzLnB1dCgiaWRsZSIsICJzdGF0aWMvcGxheWVyL2lkbGUuZ2lmaGFyYWN0ZXIrIi9pZGxlLnBuZyIpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBJbWFnZSBpbWcgPSAobmV3IEltYWdlSWNvbigiLi4vLi4vTG93VGlnZXJHYW1lL3NyYy9zdGF0aWMvcGxheWVyL2lkbGUuZ2lmIikpLmdldEltYWdlKCk7Cg==</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBzZXRTaXplKDEwMCwgMTAwKTsK</text>
-      </register>
-      <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBJbWFnZSBpbWcgPSAobmV3IEltYWdlSWNvbigiLi4vLi4vTG93VGlnZXJHYW1lL3NyYy9zdGF0aWMvcGxheWVyL2lkbGUuZ2lmIikpLmdldEltYWdlKCk7Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICBzZXRTaXplKDEwMCwgMTAwKTsK</text>
+      </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBzdXBlci5wYWludChnKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gaW1hZ2UuZ2V0SW1hZ2UoKTsK</text>
+        <text encoding="base64">ICAgICAgICBzdXBlci5wYWludChnKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHsK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gaW1hZ2UuZ2V0SW1hZ2UoKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNldFN0YXRlKFN0cmluZyBzdGF0ZSkK</text>
+        <text encoding="base64">ICAgIHsK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
