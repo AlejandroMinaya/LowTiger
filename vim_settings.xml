@@ -156,6 +156,12 @@
         <mark key="^" line="2" column="14" />
         <mark key="." line="2" column="14" />
       </file>
+      <file name="$USER_HOME$/IdeaProjects/POO/ImportImage/src/gifPanel.java" timestamp="1524024983258">
+        <mark key="[" line="14" column="36" />
+        <mark key="]" line="14" column="81" />
+        <mark key="." line="14" column="36" />
+        <mark key="^" line="14" column="35" />
+      </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego.java" timestamp="1520523673250">
         <mark key="[" line="81" column="0" />
         <mark key="]" line="45" column="20" />
@@ -313,6 +319,12 @@
         <mark key="]" line="1" column="16" />
         <mark key="^" line="1" column="16" />
         <mark key="." line="1" column="16" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/POO/ImportImage/src/Window.java" timestamp="1524024556620">
+        <mark key="[" line="11" column="24" />
+        <mark key="]" line="11" column="25" />
+        <mark key="^" line="11" column="25" />
+        <mark key="." line="11" column="25" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/Obstacle.java" timestamp="1523542654785">
         <mark key="[" line="11" column="5" />
@@ -613,10 +625,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>)</text>
+        <text>../../LowTigerGame/src/static/player/idle.gif</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>../../LowTigerGame/src/static/player/idle.gif</text>
       </register>
       <register name="/" type="4">
         <text>add(</text>
@@ -625,32 +637,31 @@
         <text encoding="base64">ICAgICAgICBkeCArPSByLm5leHRJbnQoMTApOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBzdXBlci5wYWludChnKTsK</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICByZXR1cm4gaW1hZ2UuZ2V0SW1hZ2UoKTsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIHsK</text>
+        <text encoding="base64">ICAgICAgICBJbWFnZSBpbWcgPSAobmV3IEltYWdlSWNvbigiLi4vLi4vTG93VGlnZXJHYW1lL3NyYy9zdGF0aWMvcGxheWVyL2lkbGUuZ2lmIikpLmdldEltYWdlKCk7Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNldFN0YXRlKFN0cmluZyBzdGF0ZSkK</text>
+        <text encoding="base64">ICAgICAgICBzZXRTaXplKDEwMCwgMTAwKTsK</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBBcnJheUxpc3Q8Q2lyY2xlPiBjaXJjbGVzID0gQm9hcmQuZ2V0SW5zdGFuY2UoKS5nZXRDaXJjbGVzKCk7CgogICAgICAgIGZvcihDaXJjbGUgY2lyY2xlIDogY2lyY2xlcykKICAgICAgICB7CiAgICAgICAgICAgIGlmKCFjaXJjbGUuZXF1YWxzKHRoaXMpKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBSZWN0YW5nbGUgc2hhbGxvd0hpdGJveCA9IG5ldyBSZWN0YW5nbGUoeCArIGR4LCB5ICsgZHksIHdpZHRoLCBoZWlnaHQpOwogICAgICAgICAgICAgICAgaWYoY2lyY2xlLmdldEhpdGJveCgpLmludGVyc2VjdHMoc2hhbGxvd0hpdGJveCkpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgZHggKj0gLTE7CiAgICAgICAgICAgICAgICAgICAgZHkgKj0gLTE7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBzdXBlci5wYWludChnKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigia2xrIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gaW1hZ2UuZ2V0SW1hZ2UoKTsK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIEBPdmVyZGRkcgo=</text>
+        <text encoding="base64">ICAgIHsK</text>
       </register>
-      <register name="9" type="4">
-        <text>ide
-    public boolean equals</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNldFN0YXRlKFN0cmluZyBzdGF0ZSkK</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
