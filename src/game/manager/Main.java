@@ -28,7 +28,7 @@ public class Main extends JFrame implements KeyListener
 
         addKeyListener(this);
 
-        add(currentLevel);
+        getContentPane().add(currentLevel);
 
     }
 

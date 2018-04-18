@@ -3,17 +3,20 @@ package game.manager;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
 import game.GameObject;
 import game.actor.*;
 import game.environment.*;
 
+
 public class Level extends JPanel implements Runnable
 {
-    private final Canvas canvas = new Canvas();
+    private final static int DELAY = 20;
     private final Player PLAYER = Player.getInstance();
     private ArrayList<GameObject> elements = new ArrayList<>();
+    private Rectangle paintingRegion = new Rectangle(0,0, Main.WINDOW_WIDTH, Main.WINDOW_HEIGHT);
     Level()
     {
         init();
@@ -22,7 +25,8 @@ public class Level extends JPanel implements Runnable
     private void init()
     {
         setSize(Main.WINDOW_WIDTH, Main.WINDOW_HEIGHT);
-        add(canvas);
+        setDoubleBuffered(true);
+        setBackground(Color.BLACK);
 
         elements.add(PLAYER);
         elements.add(new Enemy(300, 500, 50, 100, 100, 50, 10, "yakuza"));
@@ -65,13 +69,15 @@ public class Level extends JPanel implements Runnable
     }
 
     @Override
-    public void paint(Graphics g)
+    public void paintComponent(Graphics g)
     {
+        super.paintComponent(g);
         for(GameObject element : elements)
         {
             element.draw(g);
-            Toolkit.getDefaultToolkit().sync();
+//            Toolkit.getDefaultToolkit().sync();
         }
+        paintingRegion = g.getClipBounds();
     }
 
     @Override
@@ -93,9 +99,9 @@ public class Level extends JPanel implements Runnable
         while(true)
         {
             step();
-            repaint();
+            repaint(paintingRegion);
             timeDiff = System.currentTimeMillis() - startTime;
-            sleep = 20 - timeDiff;
+            sleep = DELAY - timeDiff;
 
             if(sleep < 0)
             {

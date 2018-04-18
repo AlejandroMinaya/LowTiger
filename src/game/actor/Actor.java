@@ -6,16 +6,17 @@ import game.Hitbox;
 import game.Raycast;
 import game.environment.*;
 
-import java.awt.event.KeyEvent;
 import javax.swing.ImageIcon;
 import java.awt.Image;
 import java.awt.Graphics;
 import java.awt.Color;
 import java.util.HashMap;
+import java.io.File;
 
 public abstract class Actor extends GameObject
 {
     protected String state;
+    protected String prevState;
     protected String character;
     protected final int STEP = 10;
     protected final int DEFAULT_GRAVITY = 1;
@@ -38,6 +39,7 @@ public abstract class Actor extends GameObject
     {
         super();
         state = "idle";
+        prevState = "";
     }
 
     Actor(int x, int y, int width, int height, int health, int damage, int range, String character)
@@ -49,19 +51,21 @@ public abstract class Actor extends GameObject
         this.character = character;
         loadSprites();
         raycast = new Raycast(x + width/2, y + height/3, range);
+        state = "idle";
+        prevState = "";
     }
 
     public void loadSprites()
     {
-//        sprites.put("idle", "static/"+character+"/idle.gif");
-        sprites.put("idle", "../../static/"+character+"/idle.png");
-        sprites.put("walk", "../../static/"+character+"/walk.gif");
+        String basePath = new File("").getAbsolutePath() + "/src";
+        sprites.put("idle", basePath+"/static/"+character+"/idle.gif");
+        sprites.put("walk", basePath+"/static/"+character+"/walk.gif");
+        System.out.println(sprites.get("idle"));
     }
 
     public Image loadImage()
     {
-        ImageIcon image = new ImageIcon(sprites.get(state));
-        return image.getImage();
+        return (new ImageIcon(sprites.get(state))).getImage();
     }
 
     public void drop()
@@ -102,6 +106,7 @@ public abstract class Actor extends GameObject
     {
         if(releasedKeys[0] && releasedKeys[1])
         {
+            state = "idle";
             dx = 0;
         }
         if(dx > 0)
@@ -119,6 +124,7 @@ public abstract class Actor extends GameObject
                 hitbox.setX(x + dx/2);
                 if(hitbox.getCollisions().size() < 1)
                 {
+                    state = "walk";
                     x += dx;
                 }
                 hitbox.setX(x);
@@ -172,7 +178,6 @@ public abstract class Actor extends GameObject
 
     public void hurt()
     {
-        System.out.println(character + ": " + health);
         if(health <=0 )
         {
             x = 0;
@@ -208,7 +213,15 @@ public abstract class Actor extends GameObject
             g.setColor(new Color(0, 255, 0));
             g.drawLine(raycast.getRaycastX1(), raycast.getRaycastY1(), raycast.getRaycastX2(), raycast.getRaycastY2());
         }
-        g.setColor(new Color(0, 0, 0));
-        g.drawImage(loadImage(), x, y, Main.getInstance());
+        int imgWidth = width;
+        int imgHeight = height;
+        int imgX = x + 1;
+        if(!facingRight)
+        {
+            imgWidth *= -1;
+            imgX -= imgWidth;
+        }
+        g.drawImage(loadImage(), imgX, y, imgWidth, imgHeight, Main.getInstance().getCurrentLevel());
     }
 }
+
