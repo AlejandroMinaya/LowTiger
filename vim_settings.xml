@@ -77,11 +77,11 @@
         <mark key="^" line="34" column="36" />
         <mark key="." line="34" column="36" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" timestamp="1523892210000">
-        <mark key="[" line="52" column="29" />
-        <mark key="]" line="53" column="29" />
-        <mark key="^" line="53" column="29" />
-        <mark key="." line="53" column="29" />
+      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" timestamp="1524023924169">
+        <mark key="'" line="13" column="44" />
+        <mark key="[" line="69" column="0" />
+        <mark key="]" line="69" column="0" />
+        <mark key="." line="69" column="0" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Animacion/Animador.java" timestamp="1520560674925">
         <mark key="[" line="2" column="21" />
@@ -124,6 +124,13 @@
         <mark key="]" line="3" column="0" />
         <mark key="^" line="3" column="0" />
         <mark key="." line="3" column="0" />
+      </file>
+      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Main.java" timestamp="1524024044197">
+        <mark key="'" line="66" column="5" />
+        <mark key="[" line="30" column="8" />
+        <mark key="]" line="30" column="24" />
+        <mark key="^" line="30" column="24" />
+        <mark key="." line="30" column="24" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/POO/Colisiones/src/GameWindow.java" timestamp="1523290377453">
         <mark key="[" line="4" column="0" />
@@ -237,10 +244,12 @@
         <mark key="^" line="87" column="37" />
         <mark key="." line="87" column="37" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" timestamp="1523887707223">
-        <mark key="[" line="126" column="0" />
-        <mark key="]" line="126" column="0" />
-        <mark key="." line="126" column="0" />
+      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" timestamp="1524024120267">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="210" column="54" />
+        <mark key="]" line="210" column="57" />
+        <mark key="." line="210" column="57" />
+        <mark key="^" line="210" column="57" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Ambiente/Powerup.java" timestamp="1520573247964">
         <mark key="[" line="3" column="51" />
@@ -311,7 +320,6 @@
         <mark key="^" line="12" column="29" />
         <mark key="." line="12" column="29" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Player.java" timestamp="1524000132596" />
       <file name="$USER_HOME$/IdeaProjects/POO/Lab72_Orquesta/src/Violin.java" timestamp="1520266328891">
         <mark key="[" line="39" column="13" />
         <mark key="]" line="39" column="13" />
@@ -502,10 +510,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="100" column="8" filename="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/ObjetoJuego.java" />
-      <jump line="83" column="41" filename="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/ObjetoJuego.java" />
-      <jump line="3" column="17" filename="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/ObjetoJuego.java" />
-      <jump line="26" column="0" filename="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/ObjetoJuego.java" />
       <jump line="101" column="0" filename="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/ObjetoJuego.java" />
       <jump line="104" column="0" filename="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/ObjetoJuego.java" />
       <jump line="114" column="35" filename="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/ObjetoJuego.java" />
@@ -602,56 +606,60 @@
       <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/environment/Item.java" />
       <jump line="30" column="18" filename="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/environment/Item.java" />
       <jump line="84" column="0" filename="$USER_HOME$/IdeaProjects/POO/reboteCirculos/src/Circle.java" />
+      <jump line="183" column="12" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
+      <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
+      <jump line="13" column="44" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="66" column="5" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Main.java" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHsK</text>
+      <register name="&quot;" type="4">
+        <text>)</text>
       </register>
       <register name="-" type="4">
-        <text>public</text>
+        <text>)</text>
       </register>
       <register name="/" type="4">
-        <text>move</text>
+        <text>add(</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ICAgICAgICBkeCArPSByLm5leHRJbnQoMTApOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIHsK</text>
+        <text encoding="base64">ICAgICAgICBzdXBlci5wYWludChnKTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNldFN0YXRlKFN0cmluZyBzdGF0ZSkK</text>
+        <text encoding="base64">ICAgICAgICByZXR1cm4gaW1hZ2UuZ2V0SW1hZ2UoKTsK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHsK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBBcnJheUxpc3Q8Q2lyY2xlPiBjaXJjbGVzID0gQm9hcmQuZ2V0SW5zdGFuY2UoKS5nZXRDaXJjbGVzKCk7CgogICAgICAgIGZvcihDaXJjbGUgY2lyY2xlIDogY2lyY2xlcykKICAgICAgICB7CiAgICAgICAgICAgIGlmKCFjaXJjbGUuZXF1YWxzKHRoaXMpKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBSZWN0YW5nbGUgc2hhbGxvd0hpdGJveCA9IG5ldyBSZWN0YW5nbGUoeCArIGR4LCB5ICsgZHksIHdpZHRoLCBoZWlnaHQpOwogICAgICAgICAgICAgICAgaWYoY2lyY2xlLmdldEhpdGJveCgpLmludGVyc2VjdHMoc2hhbGxvd0hpdGJveCkpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgZHggKj0gLTE7CiAgICAgICAgICAgICAgICAgICAgZHkgKj0gLTE7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9Cg==</text>
+        <text encoding="base64">ICAgIHB1YmxpYyB2b2lkIHNldFN0YXRlKFN0cmluZyBzdGF0ZSkK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigia2xrIik7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIEBPdmVyZGRkcgo=</text>
+        <text encoding="base64">ICAgICAgICBBcnJheUxpc3Q8Q2lyY2xlPiBjaXJjbGVzID0gQm9hcmQuZ2V0SW5zdGFuY2UoKS5nZXRDaXJjbGVzKCk7CgogICAgICAgIGZvcihDaXJjbGUgY2lyY2xlIDogY2lyY2xlcykKICAgICAgICB7CiAgICAgICAgICAgIGlmKCFjaXJjbGUuZXF1YWxzKHRoaXMpKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBSZWN0YW5nbGUgc2hhbGxvd0hpdGJveCA9IG5ldyBSZWN0YW5nbGUoeCArIGR4LCB5ICsgZHksIHdpZHRoLCBoZWlnaHQpOwogICAgICAgICAgICAgICAgaWYoY2lyY2xlLmdldEhpdGJveCgpLmludGVyc2VjdHMoc2hhbGxvd0hpdGJveCkpCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgZHggKj0gLTE7CiAgICAgICAgICAgICAgICAgICAgZHkgKj0gLTE7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9Cg==</text>
       </register>
-      <register name="7" type="4">
-        <text>ide
-    public boolean equals</text>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigia2xrIik7Cg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaXZhdGUgaW50IGR4OwogICAgcHJpdmF0ZSBpbnQgZHk7Cg==</text>
+        <text encoding="base64">ICAgIEBPdmVyZGRkcgo=</text>
       </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBpZihCb2FyZC5nZXRJbnN0YW5jZSgpLmdldENpcmNsZXMoKSkK</text>
+      <register name="9" type="4">
+        <text>ide
+    public boolean equals</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>move</last-search>
+      <last-search>add(</last-search>
       <last-offset />
-      <last-pattern>move</last-pattern>
+      <last-pattern>add(</last-pattern>
       <last-replace>d(KeyEvent e)</last-replace>
       <last-substitute>movePl</last-substitute>
       <last-dir>1</last-dir>
@@ -675,6 +683,8 @@
         <entry>ini</entry>
         <entry>movePl</entry>
         <entry>move</entry>
+        <entry>pain</entry>
+        <entry>add(</entry>
       </history-search>
       <history-cmd>
         <entry>tabp</entry>
