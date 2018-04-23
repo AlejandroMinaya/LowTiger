@@ -74,9 +74,9 @@
         <mark key="]" line="16" column="0" />
         <mark key="." line="16" column="0" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Main.java" timestamp="1524458641711">
+      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Main.java" timestamp="1524462498448">
         <mark key="'" line="62" column="0" />
-        <mark key="[" line="21" column="33" />
+        <mark key="[" line="41" column="8" />
         <mark key="]" line="43" column="33" />
         <mark key="^" line="43" column="33" />
         <mark key="." line="43" column="33" />
@@ -164,10 +164,11 @@
         <mark key="." line="22" column="0" />
         <mark key="^" line="15" column="54" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/StartMenu.java" timestamp="1524460252255">
-        <mark key="[" line="15" column="0" />
-        <mark key="]" line="15" column="0" />
-        <mark key="." line="15" column="0" />
+      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/StartMenu.java" timestamp="1524464743054">
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="0" />
+        <mark key="." line="13" column="0" />
+        <mark key="^" line="17" column="39" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ObjetoJuego/Ambiente/Plataforma.java" timestamp="1520573376911">
         <mark key="[" line="1" column="0" />
@@ -294,10 +295,11 @@
         <mark key="^" line="2" column="34" />
         <mark key="." line="2" column="34" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/LevelTransition.java" timestamp="1524460229959">
-        <mark key="[" line="18" column="0" />
-        <mark key="]" line="18" column="0" />
-        <mark key="." line="18" column="0" />
+      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/LevelTransition.java" timestamp="1524463278009">
+        <mark key="[" line="33" column="0" />
+        <mark key="]" line="33" column="0" />
+        <mark key="." line="33" column="0" />
+        <mark key="^" line="28" column="21" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/ControladorJuego/MainMenu.java" timestamp="1523207209512">
         <mark key="'" line="34" column="4" />
@@ -362,17 +364,18 @@
         <mark key="^" line="38" column="41" />
         <mark key="." line="38" column="41" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/environment/Bullet.java" timestamp="1523887215659">
-        <mark key="[" line="33" column="19" />
-        <mark key="]" line="34" column="36" />
-        <mark key="^" line="34" column="36" />
-        <mark key="." line="34" column="36" />
+      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/environment/Bullet.java" timestamp="1524463496077">
+        <mark key="[" line="40" column="27" />
+        <mark key="]" line="40" column="28" />
+        <mark key="^" line="40" column="28" />
+        <mark key="." line="40" column="28" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" timestamp="1524459907973">
-        <mark key="'" line="178" column="4" />
-        <mark key="[" line="32" column="0" />
-        <mark key="]" line="32" column="0" />
-        <mark key="." line="32" column="0" />
+      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" timestamp="1524464465463">
+        <mark key="'" line="171" column="16" />
+        <mark key="[" line="210" column="13" />
+        <mark key="]" line="210" column="35" />
+        <mark key="." line="210" column="35" />
+        <mark key="^" line="210" column="35" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/environment/Ground.java" timestamp="1523839778682">
         <mark key="'" line="3" column="0" />
@@ -448,11 +451,11 @@
         <mark key="^" line="2" column="32" />
         <mark key="." line="2" column="32" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level1.java" timestamp="1524460157488">
-        <mark key="[" line="30" column="0" />
-        <mark key="]" line="35" column="4" />
-        <mark key="." line="18" column="0" />
-        <mark key="^" line="34" column="38" />
+      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level1.java" timestamp="1524462376357">
+        <mark key="[" line="16" column="7" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="19" column="0" />
+        <mark key="^" line="19" column="0" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/Hitbox.java" timestamp="1523854067081">
         <mark key="'" line="127" column="0" />
@@ -555,11 +558,11 @@
         <mark key="^" line="42" column="13" />
         <mark key="." line="42" column="13" />
       </file>
-      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level2.java" timestamp="1524460170378">
-        <mark key="[" line="38" column="36" />
-        <mark key="]" line="38" column="35" />
-        <mark key="." line="38" column="35" />
-        <mark key="^" line="38" column="35" />
+      <file name="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level2.java" timestamp="1524461293167">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="16" column="0" />
+        <mark key="^" line="15" column="24" />
       </file>
       <file name="$USER_HOME$/IdeaProjects/LowTiger/src/MainPlayer.java" timestamp="1520537324521">
         <mark key="[" line="0" column="41" />
@@ -615,30 +618,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="120" column="0" filename="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/Hitbox.java" />
-      <jump line="22" column="0" filename="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/environment/Item.java" />
-      <jump line="24" column="0" filename="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/environment/Item.java" />
-      <jump line="4" column="24" filename="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/environment/Item.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/environment/Item.java" />
-      <jump line="30" column="18" filename="$USER_HOME$/IdeaProjects/LowTigerGame/src/game/environment/Item.java" />
-      <jump line="84" column="0" filename="$USER_HOME$/IdeaProjects/POO/reboteCirculos/src/Circle.java" />
-      <jump line="183" column="12" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="13" column="44" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
-      <jump line="66" column="5" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Main.java" />
-      <jump line="56" column="30" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="13" column="15" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="198" column="0" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="214" column="20" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="68" column="4" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="1" column="0" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="0" column="0" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="205" column="21" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="27" column="21" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="40" column="8" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="52" column="8" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="103" column="4" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
-      <jump line="93" column="8" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
-      <jump line="95" column="14" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
       <jump line="68" column="28" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
       <jump line="215" column="49" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
       <jump line="63" column="4" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/actor/Actor.java" />
@@ -692,7 +671,6 @@
       <jump line="123" column="7" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
       <jump line="69" column="8" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
       <jump line="179" column="16" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
-      <jump line="94" column="12" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
       <jump line="177" column="0" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
       <jump line="30" column="17" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
       <jump line="17" column="12" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
@@ -715,55 +693,80 @@
       <jump line="105" column="4" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
       <jump line="76" column="8" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
       <jump line="184" column="4" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="166" column="0" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="94" column="0" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="169" column="16" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="206" column="20" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="87" column="12" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="99" column="12" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="175" column="31" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="92" column="16" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="202" column="19" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="156" column="32" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="188" column="20" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="26" column="24" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="150" column="16" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="152" column="14" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="158" column="8" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="157" column="9" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="82" column="16" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="185" column="0" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="53" column="16" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="181" column="16" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="223" column="0" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="96" column="12" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="108" column="12" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="39" column="37" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
+      <jump line="171" column="16" filename="$USER_HOME$/IdeaProjects/LowTiger/src/game/manager/Level.java" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBlbmVteUNvdW50ID0gMTsK</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IiArIG5leHRMZXZlbC5sZXZlbFRocmVhZC5nZXROYW1lKCkgKyAiPCIpOw==</text>
-      </register>
-      <register name="/" type="4">
         <text>interrupt</text>
       </register>
+      <register name="/" type="4">
+        <text>addNot</text>
+      </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgYWRkTm90aWZ5KCkKICAgIHsKICAgICAgICBzdXBlci5hZGROb3RpZnkoKTsKICAgICAgICBsZXZlbFRocmVhZC5zZXROYW1lKCJMZXZlbCAxIik7CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBuYW1lID0gIlN0YXJ0IE1lbnUiOwo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBlbmVteUNvdW50ID0gMTsK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgYWRkTm90aWZ5KCkKICAgIHsKICAgICAgICBzdXBlci5hZGROb3RpZnkoKTsKICAgICAgICBsZXZlbFRocmVhZC5zZXROYW1lKCJTdGFydCBNZW51Iik7CiAgICB9Cg==</text>
+        <text encoding="base64">ICAgICAgICBuZXh0TGV2ZWwgPSBuZXcgTGV2ZWwxKCk7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgbGV2ZWxDb21wbGV0ZSgpOwo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICBsZXZlbFRocmVhZC5zZXROYW1lKCJMZXZlbCAxIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgZW5lbXlDb3VudCA9IDA7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICBsZXZlbFRocmVhZC5zZXROYW1lKCJMZXZlbCBUcmFuc2l0aW9uIHRvID4iICsgbmV4dExldmVsLmxldmVsVGhyZWFkLmdldE5hbWUoKSArICI8Iik7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGlmKGNvbXBsZXRlKQogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiTEVWRUwgQ09NUExFVEUiKTsKICAgICAgICAgICAgICAgICAgICBNYWluLmdldEluc3RhbmNlKCkuc2V0Q3VycmVudExldmVsKG5ldyBMZXZlbFRyYW5zaXRpb24obmV4dExldmVsKSk7CiAgICAgICAgICAgICAgICAgICAgdGVybWluYXRlKCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBlbHNlewogICAgICAgICAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigiR0FNRSBPVkVSIik7CiAgICAgICAgICAgICAgICAgICAgTWFpbi5nZXRJbnN0YW5jZSgpLnNldEN1cnJlbnRMZXZlbChHYW1lT3Zlci5nZXRJbnN0YW5jZSgpKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJldHVybjsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICBsZXZlbFRocmVhZC5zZXROYW1lKCJMZXZlbCAxIik7Cg==</text>
+        <text encoding="base64">ICAgICAgICBsZXZlbFRocmVhZC5pbnRlcnJ1cHQoKTsK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBsZXZlbFRocmVhZC5zZXROYW1lKCJTdGFydCBNZW51Iik7Cg==</text>
+        <text encoding="base64">ICAgICAgICB0cnkKICAgICAgICB7CiAgICAgICAgICAgIGxldmVsVGhyZWFkLmpvaW4oKTsKICAgICAgICB9CiAgICAgICAgY2F0Y2goSW50ZXJydXB0ZWRFeGNlcHRpb24gZSkKICAgICAgICB7CiAgICAgICAgICAgIGUucHJpbnRTdGFja1RyYWNlKCk7CiAgICAgICAgfQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJGQUlMRUQgSk9JTjogIiArIGUuZ2V0U3RhY2tUcmFjZSgpKTsK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBsZXZlbFRocmVhZC5zZXROYW1lKCIiKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKHByb2NlZWQpOwo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>interrupt</last-search>
+      <last-search>addNot</last-search>
       <last-offset />
-      <last-pattern>interrupt</last-pattern>
+      <last-pattern>addNot</last-pattern>
       <last-replace>public</last-replace>
       <last-substitute>private</last-substitute>
       <last-dir>1</last-dir>
@@ -771,26 +774,26 @@
     </search>
     <history>
       <history-search>
-        <entry>jumping</entry>
-        <entry>falling</entry>
-        <entry>levelThre</entry>
-        <entry>step</entry>
-        <entry>gameOver</entry>
-        <entry>levelCom</entry>
-        <entry>private</entry>
-        <entry>nextLeve</entry>
         <entry>gameOVer</entry>
         <entry>GAME OV</entry>
         <entry>win</entry>
-        <entry>levelCo</entry>
-        <entry>paint</entry>
         <entry>Sysetm.out</entry>
         <entry>System.oy</entry>
         <entry>System.out</entry>
         <entry>elements.cl</entry>
         <entry>inte</entry>
-        <entry>addNot</entry>
+        <entry>levelCo</entry>
         <entry>interrupt</entry>
+        <entry>temrina</entry>
+        <entry>levelCom</entry>
+        <entry>complete</entry>
+        <entry>Toolkit</entry>
+        <entry>paint</entry>
+        <entry>remove</entry>
+        <entry>termina</entry>
+        <entry>addEnemy</entry>
+        <entry>terminate</entry>
+        <entry>addNot</entry>
       </history-search>
       <history-cmd>
         <entry>tabp</entry>
