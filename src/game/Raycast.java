@@ -1,6 +1,9 @@
 package game;
 
 import java.awt.geom.Line2D;
+import game.actor.*;
+import game.environment.*;
+import game.manager.Main;
 
 public class Raycast extends Line2D.Double
 {
@@ -65,7 +68,41 @@ public class Raycast extends Line2D.Double
         y2 = y;
     }
 
+    public boolean isTargetInRange(Actor target)
+    {
+        if(target == null || target.getHitbox().equals(this))
+        {
+            return false;
+        }
+        Hitbox targetHitbox = target.getHitbox();
+        if(this.intersects(targetHitbox))
+        {
+            return true;
+        }
+        return false;
+    }
 
+    public boolean isObstacleInRange()
+    {
+        for(GameObject element : Main.getInstance().getCurrentLevel().getElements())
+        {
+            if(element instanceof Obstacle && this.intersects(element.getHitbox()))
+            {
+                    return true;
+            }
+        }
+        return false;
+    }
 
-
+    public boolean isEnemyInRange()
+    {
+        for(GameObject element : Main.getInstance().getCurrentLevel().getElements())
+        {
+            if(element instanceof Enemy && this.intersects(element.getHitbox()))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }

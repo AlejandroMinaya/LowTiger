@@ -5,39 +5,126 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
+import java.util.ConcurrentModificationException;
+import java.util.Iterator;
 
 import game.GameObject;
 import game.actor.*;
 import game.environment.*;
+import game.ui.HealthBar;
 
 
-public class Level extends JPanel implements Runnable
+public abstract class Level extends JPanel implements Runnable
 {
-    private final static int DELAY = 20;
-    private final Player PLAYER = Player.getInstance();
-    private ArrayList<GameObject> elements = new ArrayList<>();
-    private Rectangle paintingRegion = new Rectangle(0,0, Main.WINDOW_WIDTH, Main.WINDOW_HEIGHT);
+    protected final static int DELAY = 20;
+    protected final Player PLAYER = Player.getInstance();
+    protected Level nextLevel;
+    protected int enemyCount = 0;
+    protected boolean complete = false;
+    protected ArrayList<GameObject> elements = new ArrayList<>();
+    protected ArrayList<GameObject> stagingArea = new ArrayList<>();
+    protected Thread levelThread;
+    protected String name;
+    protected Rectangle paintingRegion = new Rectangle(0,0, Main.WINDOW_WIDTH, Main.WINDOW_HEIGHT);
+    protected boolean running;
+    protected Image background;
     Level()
     {
+        //SETTINGS
+        setSize(Main.WINDOW_WIDTH, Main.WINDOW_HEIGHT);
+        setDoubleBuffered(true);
+
+        //CHARACTERS
+        elements.add(PLAYER);
+        PLAYER.setHealth(100);
+
+        //GUI
+        elements.add(new HealthBar());
+
         init();
     }
 
-    private void init()
-    {
-        setSize(Main.WINDOW_WIDTH, Main.WINDOW_HEIGHT);
-        setDoubleBuffered(true);
-        setBackground(Color.BLACK);
-
-        elements.add(PLAYER);
-        elements.add(new Enemy(300, 500, 50, 100, 100, 50, 10, "yakuza"));
-        elements.add(new Ground(0, Main.WINDOW_HEIGHT - 80, Main.WINDOW_WIDTH, 100));
-        elements.add(new Firearm(400, Main.WINDOW_HEIGHT - 150, 50, 50, 10));
-        elements.add(new Ground(500, 500, 200, 100));
-    }
+    public abstract void init();
 
     public void addComponent(GameObject gobj)
     {
-        elements.add(gobj);
+            stagingArea.add(gobj);
+    }
+
+    public void addEnemy(Enemy enem)
+    {
+        elements.add(enem);
+        enemyCount++;
+    }
+
+    public void removeTrash()
+    {
+        boolean remove = false;
+        GameObject objToRemove = null;
+        Iterator<GameObject> elementsIterator = elements.iterator();
+        GameObject obj;
+        while(elementsIterator.hasNext())
+        {
+            obj = elementsIterator.next();
+            if(obj instanceof Actor)
+            {
+                if(((Actor) obj).getHealth() <= 0)
+                {
+                    if(obj instanceof Enemy)
+                    {
+                        enemyCount--;
+                    }
+                    objToRemove = obj;
+                    remove = true;
+                }
+            }
+
+            if(obj instanceof Bullet)
+            {
+                if(((Bullet)obj).collided())
+                {
+                    objToRemove = obj;
+                    remove = true;
+                }
+            }
+        }
+        if(remove)
+        {
+            elements.remove(objToRemove);
+        }
+
+    }
+
+    public void gameOver()
+    {
+        if(PLAYER.getHealth() == 0)
+        {
+            terminate();
+            PLAYER.setHealth(100);
+        }
+    }
+
+    public synchronized void levelComplete()
+    {
+        if(enemyCount == 0)
+        {
+            complete = true;
+            PLAYER.drop();
+            PLAYER.setPosition(10, 10);
+            terminate();
+        }
+    }
+
+    public void addStagingArea()
+    {
+        Iterator<GameObject> elementsIterator = stagingArea.iterator();
+        GameObject obj;
+        while(elementsIterator.hasNext())
+        {
+            obj = elementsIterator.next();
+            elements.add(obj);
+        }
+        stagingArea.clear();
     }
 
     public ArrayList<GameObject> getElements()
@@ -45,10 +132,19 @@ public class Level extends JPanel implements Runnable
         return elements;
     }
 
-    private void step()
+    public void step()
     {
-        for(GameObject element : elements)
+        Iterator<GameObject> elementsIterator = elements.iterator();
+        GameObject element;
+        while(elementsIterator.hasNext())
         {
+            element = elementsIterator.next();
+            if(element instanceof Enemy)
+            {
+                Enemy enemy = (Enemy) element;
+                enemy.behave();
+
+            }
             if(element instanceof Actor)
             {
                 Actor actor = (Actor) element;
@@ -62,8 +158,11 @@ public class Level extends JPanel implements Runnable
                 Item item = (Item) element;
                 item.move();
             }
-
         }
+        addStagingArea();
+        removeTrash();
+        levelComplete();
+        gameOver();
 //        PLAYER.move();
 //        PLAYER.jump();
     }
@@ -72,10 +171,17 @@ public class Level extends JPanel implements Runnable
     public void paintComponent(Graphics g)
     {
         super.paintComponent(g);
-        for(GameObject element : elements)
+        if(background != null)
         {
-            element.draw(g);
-//            Toolkit.getDefaultToolkit().sync();
+            g.drawImage(background, 0,0, getWidth(), getHeight(), Main.getInstance().getCurrentLevel());
+        }
+        Iterator<GameObject> elementsIterator = elements.iterator();
+        while(elementsIterator.hasNext())
+        {
+            synchronized (this)
+            {
+                elementsIterator.next().draw(g);
+            }
         }
         paintingRegion = g.getClipBounds();
     }
@@ -84,9 +190,34 @@ public class Level extends JPanel implements Runnable
     public void addNotify()
     {
         super.addNotify();
-
-        Thread levelThread = new Thread(this);
+        levelThread = new Thread(this);
+        levelThread.setName(name);
+        running = true;
         levelThread.start();
+        System.out.println("Started new thread: " + levelThread.getName());
+    }
+
+    public synchronized void terminate()
+    {
+        running = false;
+        if(complete)
+        {
+            System.out.println("LEVEL COMPLETE");
+            Main.getInstance().setCurrentLevel(new LevelTransition(nextLevel));
+        }
+        else{
+            System.out.println("GAME OVER");
+            Main.getInstance().setCurrentLevel(GameOver.getInstance());
+        }
+//        try
+//        {
+//            levelThread.join();
+//        }
+//        catch(InterruptedException e)
+//        {
+//            e.printStackTrace();
+//        }
+        levelThread.interrupt();
     }
 
     @Override
@@ -98,6 +229,13 @@ public class Level extends JPanel implements Runnable
 
         while(true)
         {
+            synchronized (this)
+            {
+                if(!running)
+                {
+                    break;
+                }
+            }
             step();
             repaint(paintingRegion);
             timeDiff = System.currentTimeMillis() - startTime;
@@ -113,7 +251,7 @@ public class Level extends JPanel implements Runnable
                 Thread.sleep(sleep);
             } catch(InterruptedException e)
             {
-                System.out.println(e.getMessage());
+                e.printStackTrace();
             }
 
             startTime = System.currentTimeMillis();
@@ -123,7 +261,6 @@ public class Level extends JPanel implements Runnable
     public void keyPressed(KeyEvent e)
     {
         PLAYER.keyPressed(e);
-
     }
 
     public void keyReleased(KeyEvent e)

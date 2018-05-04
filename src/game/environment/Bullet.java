@@ -1,15 +1,23 @@
 package game.environment;
 
 import game.Hitbox;
+import game.manager.Main;
+
+import java.awt.*;
+import java.awt.image.*;
 
 public class Bullet extends Item
 {
+    private boolean collided;
+    private Image image;
 
     private int dx;
     public Bullet()
     {
         super();
         dx = 0;
+        collided = false;
+        image = loadImageFile("/static/elements/bullet.png");
     }
 
     public Bullet(int x, int y, int width, int height, int dx, int damage)
@@ -33,5 +41,18 @@ public class Bullet extends Item
         width = 0;
         height = 0;
         hitbox = new Hitbox(0,0,0,0);
+        collided = true;
+    }
+
+    public boolean collided()
+    {
+        return collided;
+    }
+
+    @Override
+    public void draw(Graphics g)
+    {
+        super.draw(g);
+        g.drawImage(image, x, y, 100, 100, Main.getInstance().getCurrentLevel());
     }
 }

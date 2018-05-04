@@ -1,5 +1,6 @@
 package game.environment;
 
+import game.manager.*;
 public class Firearm extends Item
 {
     public int bulletSpeed = 10;
@@ -13,8 +14,14 @@ public class Firearm extends Item
         super(x, y, width, height, damage);
     }
 
-    public int getBulletSpeed()
+    public void shoot(int x, int y, boolean facingRight)
     {
-        return bulletSpeed;
+        int speed = bulletSpeed;
+        if (!facingRight)
+        {
+            speed *= -1;
+        }
+        Main.getInstance().getCurrentLevel().addComponent(new Bullet(x, y, 10, 5, speed, getDamage()));
     }
+
 }

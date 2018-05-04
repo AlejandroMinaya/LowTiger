@@ -11,12 +11,15 @@ public class Item extends GameObject
     private int unequippedHeight;
     private int getUnequippedWidth;
     private int damage;
+    private final int STEP = 100;
+    private int initialY;
     public Item()
     {
         super();
         state = "unequipped";
         unequippedHeight = 0;
         getUnequippedWidth = 0;
+        initialY = 0;
     }
 
     public Item(int x, int y, int width, int height, int damage)
@@ -26,6 +29,7 @@ public class Item extends GameObject
         getUnequippedWidth = width;
         state = "unequipped";
         this.damage = damage;
+        initialY = y;
     }
 
     public void setState(String state)
@@ -55,7 +59,6 @@ public class Item extends GameObject
 
     public void move()
     {
-
     }
 
     public int getDamage()

@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class Main extends JFrame implements KeyListener
 {
-    public static final int WINDOW_WIDTH = 1000;
+    public static final int WINDOW_WIDTH = 1280;
     public static final int WINDOW_HEIGHT = 800;
     public static final boolean DEBUG = true;
     private static Main instance = new Main();
@@ -19,7 +19,7 @@ public class Main extends JFrame implements KeyListener
     public void init()
     {
         //TEMPORAL LEVEL
-        currentLevel = new Level();
+        currentLevel = new StartMenu();
 
         setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
         setResizable(false);
@@ -35,6 +35,13 @@ public class Main extends JFrame implements KeyListener
     public Level getCurrentLevel()
     {
         return currentLevel;
+    }
+
+    public synchronized void setCurrentLevel(Level lev)
+    {
+        getContentPane().remove(currentLevel);
+        currentLevel = lev;
+        getContentPane().add(lev);
     }
 
     public void keyPressed(KeyEvent e)
