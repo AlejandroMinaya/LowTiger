@@ -4,6 +4,12 @@ import game.GameObject;
 import game.actor.*;
 import java.awt.*;
 
+/**
+ * HealthBar represents the current Health Points of the Player object
+ * @author Juan Alcantara
+ * @author Jose Hernandez
+ * @see Player
+ */
 public class HealthBar extends GameObject
 {
     private int width;
@@ -16,6 +22,9 @@ public class HealthBar extends GameObject
         width = MAX_WIDTH;
     }
 
+    /**
+     * Changes the width of the bar in proportion to the current health points of the Player
+     */
     private void updateWidth()
     {
         width = Math.round(200 * (PLAYER.getHealth()/(float)100));

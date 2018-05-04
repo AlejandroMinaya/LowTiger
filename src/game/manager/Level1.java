@@ -7,12 +7,20 @@ import game.environment.*;
 import game.actor.*;
 import game.ui.*;
 
+/**
+ * Level1 is a special Level representing the inital game level
+ * @author Juan Alcantara
+ * @author Jose Hernandez
+ * @version %I%
+ * @since 1.0
+ */
 public class Level1 extends Level
 {
     public Level1()
     {
         super();
     }
+
     public void init()
     {
         //SETTINGS

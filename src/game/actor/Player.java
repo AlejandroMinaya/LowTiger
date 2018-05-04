@@ -8,6 +8,13 @@ import game.PlayerHitbox;
 import game.manager.Main;
 import game.Hitbox;
 
+/**
+ * Player is a singleton class to represent the character the user will be using for the game. Its actions are only activated through the user's interaction and can only be instantiated once.
+ * @author Juan Alcantara
+ * @author Jose Hernandez
+ * @version %I%
+ * @since 1.0
+ */
 public class Player extends Actor
 {
     private static Player instance = new Player();
@@ -22,6 +29,16 @@ public class Player extends Actor
         return instance;
     }
 
+    /**
+     * Depending on the key pressed the Main Player performs various actions:
+     * RIGHT ARROW KEY = moves to the right
+     * LEFT ARROW KEY = moves to the left
+     * SPACEBAR = jumps if in contact with the ground
+     * X = shoots if Firearm equipped
+     *
+     * This actions change the values of certain flags to later be processed by move()
+     * @param e pressed key event
+     */
     public void keyPressed(KeyEvent e)
     {
         int key = e.getKeyCode();
@@ -49,6 +66,10 @@ public class Player extends Actor
         }
     }
 
+    /**
+     * Register when the user has stopped certain keys to change certain flags to later be processed by move()
+     * @param e released key event
+     */
     public void keyReleased(KeyEvent e)
     {
         int key = e.getKeyCode();
@@ -62,6 +83,10 @@ public class Player extends Actor
         }
     }
 
+    /**
+     * This overried allows for the customisation of movement. It avoids the user moving when pressing two keys at the
+     * time.
+     */
     @Override
     public void move()
     {

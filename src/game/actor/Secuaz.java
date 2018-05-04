@@ -1,5 +1,13 @@
 package game.actor;
 
+/**
+ * Secuaz is a specific NPC enemy for this game. Its behavior is the simplest of them all. It just follows the Main
+ * Player on the x-axis, unable to jump.
+ * @author Juan Alcantara
+ * @author Jose Hernandez
+ * @version %I%
+ * @since 1.0
+ */
 public class Secuaz extends Enemy
 {
     private static final int WIDTH = 100;
@@ -22,6 +30,11 @@ public class Secuaz extends Enemy
         step = STEP;
     }
 
+    /**
+     * Allows the creation of a Secuaz given its initial position
+     * @param x initial x-coordinate in pixels
+     * @param y initial y-coordinate in pixels
+     */
     public Secuaz(int x, int y)
     {
         super(x, y, WIDTH, HEIGHT, INITIAL_HEALTH, DAMAGE, RANGE, CHARACTER);

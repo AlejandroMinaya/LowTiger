@@ -7,6 +7,15 @@ import javax.swing.*;
 import java.awt.Color;
 import java.io.File;
 
+
+/**
+ * GameObject is a generic class to depict elements in our game that need xy-coordinates, size and a hitbox
+ *
+ * @author Juan Alcantara
+ * @author Jose Hernandez
+ * @version %I%
+ * @since 1.0
+ */
 public class GameObject extends JPanel
 {
     protected int x, y;
@@ -26,6 +35,17 @@ public class GameObject extends JPanel
         init();
     }
 
+    /**
+     * Creates a GameObject with a default Hitbox given by the parameters
+     *
+     * @param x x-coordinate in pixels
+     * @param y y-coordinate in pixels
+     * @param width width in pixels
+     * @param height width in pixels
+     *
+     * @see Hitbox
+     */
+
     public GameObject(int x, int y, int width, int height)
     {
         this.x = x;
@@ -35,6 +55,10 @@ public class GameObject extends JPanel
         hitbox = new Hitbox(x, y, width, height);
         init();
     }
+
+    /**
+     * The method initializes the GameObject by setting its size and the JPanel default double buffer.
+     * */
 
     public void init()
     {
@@ -80,6 +104,13 @@ public class GameObject extends JPanel
         return height;
     }
 
+    /**
+     * Draws the GameObject into the give Graphics Component. If the DEBUG option in true in the Main class, it includes
+     * a bounding box for the game element.
+     *
+     * @param g Craphics Component received from PaintComponent method from a JComponent
+     * */
+
     public void draw(Graphics g)
     {
         if(x == lastX && y == lastY)
@@ -92,6 +123,13 @@ public class GameObject extends JPanel
         }
         g.setColor(new Color(0, 0, 0));
     }
+
+    /**
+     * It retrieves the image from the specified directory and loads it.
+     *
+     * @param file root path to the image
+     * @return Image object
+     * */
 
     public static Image loadImageFile(String file)
     {

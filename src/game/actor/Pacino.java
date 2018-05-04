@@ -2,6 +2,13 @@ package game.actor;
 
 import game.environment.Firearm;
 
+/**
+ * This is a specific character for this game able to follow and shoot its target. Nevertheless it is not able to jump.
+ * @author Juan Alcantara
+ * @author Jose Hernandez
+ * @version %I%
+ * @since 1.0
+ */
 public class Pacino extends Enemy
 {
     private static final int WIDTH = 100;
@@ -26,6 +33,11 @@ public class Pacino extends Enemy
         init();
     }
 
+    /**
+     * Allows the creation of a Pacino actor with a specific starting position
+     * @param x initial x-coordinate in pixels
+     * @param y initial y-coordinate in pixels
+     */
     public Pacino(int x, int y)
     {
         super(x, y, WIDTH, HEIGHT, INITIAL_HEALTH, DAMAGE, RANGE, CHARACTER);
@@ -33,6 +45,9 @@ public class Pacino extends Enemy
         init();
     }
 
+    /**
+     * This override allows the Pacino to be equipped with a gun
+     */
     @Override
     public void init()
     {
@@ -42,6 +57,9 @@ public class Pacino extends Enemy
         equippedItem = gun;
     }
 
+    /**
+     * This override allows the Pacino to shoot if its target is within range
+     */
     @Override
     public void attack()
     {

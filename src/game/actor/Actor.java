@@ -13,6 +13,15 @@ import java.awt.Color;
 import java.util.HashMap;
 import java.io.File;
 
+/**
+ * Actor represents all the GameObject able to move and interact with the Level. It allows for enemies and a main Player.
+ * @author Juan Alcantara
+ * @author Jose Hernandez
+ * @version %I%
+ * @see game.manager.Level
+ * @see Player
+ * @since 1.0
+ */
 public abstract class Actor extends GameObject
 {
     protected String state;
@@ -44,6 +53,18 @@ public abstract class Actor extends GameObject
         alive = true;
     }
 
+    /**
+     * Allows to create an Actor by defining its initial position, dimensions, health, damage, range, and type of
+     * character
+     * @param x initial x-coordinate in pixels
+     * @param y initial y-coordinate in pixels
+     * @param width width in pixels
+     * @param height height in pixels
+     * @param health health points
+     * @param damage damage points
+     * @param range range points
+     * @param character name or type of character
+     */
     Actor(int x, int y, int width, int height, int health, int damage, int range, String character)
     {
         super(x, y, width, height);
@@ -68,6 +89,9 @@ public abstract class Actor extends GameObject
         raycast.setY(y + height/3);
     }
 
+    /**
+     * Based on the different states of an actor, creates a HashMap with paths to each of the images for each state.
+     */
     private void loadSprites()
     {
         String basePath = new File("").getAbsolutePath() + "/src";
@@ -77,6 +101,10 @@ public abstract class Actor extends GameObject
         System.out.println(sprites.get("idle"));
     }
 
+    /**
+     * Automatically gets the image that should be displayed based on the Actor state
+     * @return Image corresponding to the current Actor state
+     */
     private Image loadImage()
     {
         return (new ImageIcon(sprites.get(state))).getImage();
@@ -87,6 +115,10 @@ public abstract class Actor extends GameObject
         this.health = health;
     }
 
+    /**
+     * Allows Actor to unequipped previously held Item objects.
+     * @see Item
+     */
     public void drop()
     {
         int xOffset = x + width * 2;
@@ -102,12 +134,19 @@ public abstract class Actor extends GameObject
         equippedItem = null;
     }
 
+    /**
+     * Allows Actor to equipped the specified Item object.
+     * @param item Item object to be equipped
+     */
     public void equip(Item item)
     {
         equippedItem = item;
         item.equip();
     }
 
+    /**
+     * Allows the Actor to use a Firearm if it is equipped.
+     */
     public void shoot()
     {
         if(alive)
@@ -124,6 +163,10 @@ public abstract class Actor extends GameObject
         }
     }
 
+
+    /**
+     * Allows the Actor to move across the x-axis of the screen as long as it doesn't exceed the window boundaries.
+     */
     public void move()
     {
         if(alive)
@@ -150,6 +193,10 @@ public abstract class Actor extends GameObject
         }
     }
 
+    /**
+     * Allows the Actor to be affected by the simulated gravity and to jump if in contact with a Ground object.
+     * @see Ground
+     */
     public void jump()
     {
         if(alive)
@@ -207,6 +254,10 @@ public abstract class Actor extends GameObject
         }
     }
 
+    /**
+     * Affects the health of the Actor if it has received damage. In the case of the Actor's death its properties are
+     * nullified.
+     */
     public void hurt()
     {
         if(health <=0 )
@@ -230,12 +281,19 @@ public abstract class Actor extends GameObject
 
     }
 
+    /**
+     * Allows the health of the Actor to be affected by a specific amount of damage.
+     * @param damage specific amount of damage to affect the Actor.
+     */
     public void hurt(int damage)
     {
         health -= damage;
         state = "hurt";
     }
 
+    /**
+     * Forces Actor to equip item if it has collided with it
+     */
     public void equip()
     {
         if(alive)

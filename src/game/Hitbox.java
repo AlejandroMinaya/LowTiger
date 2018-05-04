@@ -8,6 +8,15 @@ import java.awt.Rectangle;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+/**
+ * Hitbox allows to define boundaries for our game objects in order to get collisions.
+ *
+ * @author Juan Alcantara
+ * @author José Hernández
+ * @version %I%
+ * @since 1.0
+ * */
+
 public class Hitbox extends Rectangle
 {
     private static int lastID = 0;
@@ -22,6 +31,16 @@ public class Hitbox extends Rectangle
         lastID++;
     }
 
+    /**
+     * Hitbox constructor. Receives parameters directly from the GameObject where it is initialized
+     *
+     * @param x x-coordinate in pixels
+     * @param y y-coordinate in pixels
+     * @param width width in pixels
+     * @param height height in pixels
+     *
+     * @see GameObject
+     */
     public Hitbox(int x, int y, int width, int height)
     {
         super(x, y, width, height);
@@ -58,6 +77,14 @@ public class Hitbox extends Rectangle
         this.y = y;
     }
 
+    /**
+     * Retrieves all the objects that are currently in the screen and colliding with this Hitbox. Only consider objects
+     * of the Player and Obstacle class.
+     *
+     * @return ArrayList containing all colliding elements
+     * @see Player
+     * @see Obstacle
+     */
     public ArrayList<GameObject> getCollisions()
     {
         collisions.clear();
@@ -79,6 +106,12 @@ public class Hitbox extends Rectangle
         return collisions;
     }
 
+    /**
+     * Verifies that the Hitbox is touching a Ground object
+     *
+     * @return <code>true</code> if the Hitbox is colliding with a Ground object; <code>false</code> otherwise.
+     * @see Ground
+     */
     public boolean isCollidingGround()
     {
         ArrayList<GameObject> elements = getCollisions();
@@ -95,6 +128,12 @@ public class Hitbox extends Rectangle
         return false;
     }
 
+    /**
+     * Retrieves all Item objects in screen that are colliding with this Hitbox
+     *
+     * @return ArrayList of all the Item objects colliding
+     * @see Item
+     */
     public ArrayList<Item> getItems()
     {
         items.clear();
@@ -116,6 +155,12 @@ public class Hitbox extends Rectangle
         return items;
     }
 
+    /**
+     * Retrieve Ground object currently colliding with this Hitbox
+     *
+     * @return Ground object if found; <code>null</code> otherwise.
+     * @see Ground
+     */
     public Ground getGround()
     {
         if(isCollidingGround())
@@ -134,6 +179,14 @@ public class Hitbox extends Rectangle
         return null;
     }
 
+    /**
+     * Detects collisions with Bullet and Melee objects to calculate the damage due for the Actor
+     *
+     * @return amount of damage received
+     * @see Bullet
+     * @see Melee
+     * @see Actor
+     */
     public int getDamage()
     {
         ArrayList<GameObject> elements = Main.getInstance().getCurrentLevel().getElements();
@@ -159,11 +212,13 @@ public class Hitbox extends Rectangle
         return 0;
     }
 
-    public boolean isCollidingActor()
-    {
-        return isCollidingActor(false);
-    }
-
+    /**
+     * Detects if the current Hitbox is colliding with an Actor. Possible to specify if interested in collisions with
+     * the head
+     * @param head determine if the collision detection should only consider the head.
+     * @return <code>true</code> if colliding with Actor; <code>false</code> otherwise.
+     * @see Actor
+     */
     public boolean isCollidingActor(boolean head)
     {
         ArrayList<GameObject> collisions = getCollisions();
@@ -187,8 +242,6 @@ public class Hitbox extends Rectangle
         }
         return false;
     }
-
-
 
     @Override
     public boolean equals(Object o) {

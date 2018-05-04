@@ -1,10 +1,21 @@
 package game.manager;
 
+import com.sun.tools.javadoc.Start;
+import game.GameObject;
+
 import java.awt.event.KeyEvent;
 
+/**
+ * StartMenu is a singleton special level to tell the users the controls and allow them to start.
+ * @author Juan Alcantara
+ * @author Jose Hernandez
+ * @version %I%
+ * @since 1.0
+ */
 public class StartMenu extends Level
 {
-    public StartMenu()
+    private static StartMenu instance = new StartMenu();
+    private StartMenu()
     {
         super();
     }
@@ -15,8 +26,14 @@ public class StartMenu extends Level
         nextLevel = new Level1();
         elements.remove(PLAYER);
         enemyCount = 1;
+        background = GameObject.loadImageFile("/static/level/start.jpg");
     }
 
+    /**
+     * This override allows to continue when ENTER is pressed and to stop the game when ESC is pressed.
+     *
+     * @param e pressed key event
+     */
     @Override
     public void keyPressed(KeyEvent e)
     {
@@ -33,5 +50,10 @@ public class StartMenu extends Level
         {
             Main.getInstance().dispose();
         }
+    }
+
+    public static StartMenu getInstance()
+    {
+        return instance;
     }
 }

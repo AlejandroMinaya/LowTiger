@@ -1,5 +1,15 @@
 package game.actor;
 
+import game.Raycast;
+
+/**
+ * Yakuza is a specific enemy for this game. It has the most complex behavior because it jumps platforms in order to
+ * follow the Main Player. It is quick and performs a lot of damage.
+ * @author Juan Alcantara
+ * @author Jose Hernandez
+ * @version %I%
+ * @since 1.0
+ */
 public class Yakuza extends Enemy
 {
     private static final int WIDTH = 80;
@@ -22,12 +32,22 @@ public class Yakuza extends Enemy
         step = STEP;
     }
 
+    /**
+     * Given an specific position, this constructor allows to create a Yakuza actor.
+     * @param x initial x-coordinate
+     * @param y inital y-coordinate
+     */
     public Yakuza(int x, int y)
     {
         super(x, y, WIDTH, HEIGHT, INITIAL_HEALTH, DAMAGE, RANGE, CHARACTER);
         step = STEP;
     }
 
+
+    /**
+     * This override allows the Yakuza to jump if an obstacle is colliding with its Raycast
+     * @see Raycast
+     */
     @Override
     public void behave()
     {

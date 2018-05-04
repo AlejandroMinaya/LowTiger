@@ -5,6 +5,13 @@ import java.awt.*;
 import game.GameObject;
 import game.environment.*;
 import game.actor.*;
+/**
+ * Level2 is a special Level representing the last game level
+ * @author Juan Alcantara
+ * @author Jose Hernandez
+ * @version %I%
+ * @since 1.0
+ */
 public class Level2 extends Level
 {
     public Level2()
@@ -15,8 +22,8 @@ public class Level2 extends Level
     {
         //SETTINGS
         name = "Level 2";
-        setBackground(Color.GRAY);
-        nextLevel = null;
+        setBackground(Color.BLACK);
+        nextLevel = Victory.getInstance();
         background = GameObject.loadImageFile("/static/level/puente.jpg");
 
         //CHARACTERS
