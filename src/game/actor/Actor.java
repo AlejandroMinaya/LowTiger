@@ -18,7 +18,7 @@ public abstract class Actor extends GameObject
     protected String state;
     protected String prevState;
     protected String character;
-    protected final int STEP = 10;
+    protected int step = 10;
     protected final int DEFAULT_GRAVITY = 1;
     protected int gravity = DEFAULT_GRAVITY;
     protected final int MAX_GRAVITY = DEFAULT_GRAVITY * 20;
@@ -31,6 +31,7 @@ public abstract class Actor extends GameObject
     protected int damage;
     protected int health;
     protected boolean[] releasedKeys = {true, true};
+    protected boolean alive;
     protected Raycast raycast;
     protected Item equippedItem;
     protected HashMap<String, String> sprites = new HashMap<>();
@@ -40,6 +41,7 @@ public abstract class Actor extends GameObject
         super();
         state = "idle";
         prevState = "";
+        alive = true;
     }
 
     Actor(int x, int y, int width, int height, int health, int damage, int range, String character)
@@ -49,23 +51,40 @@ public abstract class Actor extends GameObject
         this.damage = damage;
         this.range = range;
         this.character = character;
-        loadSprites();
-        raycast = new Raycast(x + width/2, y + height/3, range);
         state = "idle";
+        alive = true;
         prevState = "";
+        raycast = new Raycast(x + width/2, y + height/3, range);
+        loadSprites();
     }
 
-    public void loadSprites()
+    public void setPosition(int x, int y)
+    {
+        this.x = x;
+        this.y = y;
+        hitbox.setX(x);
+        hitbox.setY(y);
+        raycast.setX(x + width/2, facingRight);
+        raycast.setY(y + height/3);
+    }
+
+    private void loadSprites()
     {
         String basePath = new File("").getAbsolutePath() + "/src";
         sprites.put("idle", basePath+"/static/"+character+"/idle.gif");
         sprites.put("walk", basePath+"/static/"+character+"/walk.gif");
+        sprites.put("jump", basePath+"/static/"+character+"/walk.gif");
         System.out.println(sprites.get("idle"));
     }
 
-    public Image loadImage()
+    private Image loadImage()
     {
         return (new ImageIcon(sprites.get(state))).getImage();
+    }
+
+    public void setHealth(int health)
+    {
+        this.health = health;
     }
 
     public void drop()
@@ -91,37 +110,35 @@ public abstract class Actor extends GameObject
 
     public void shoot()
     {
-        if(equippedItem != null && equippedItem instanceof Firearm)
+        if(alive)
         {
-            int speed = ((Firearm) equippedItem).getBulletSpeed();
-            if(!facingRight)
-            {
-                speed *= -1;
+            if (equippedItem != null && equippedItem instanceof Firearm) {
+                Firearm equippedFirearm = (Firearm) equippedItem;
+                int origin = range * 5;
+                if(!facingRight)
+                {
+                    origin *= -1;
+                }
+                equippedFirearm.shoot(raycast.getRaycastX2() - origin, raycast.getRaycastY2(), facingRight);
             }
-            Main.getInstance().getCurrentLevel().addComponent(new Bullet(raycast.getRaycastX2(), raycast.getRaycastY1(), 10, 5, speed, equippedItem.getDamage()));
         }
     }
 
     public void move()
     {
-        if(releasedKeys[0] && releasedKeys[1])
+        if(alive)
         {
-            state = "idle";
-            dx = 0;
-        }
-        if(dx > 0)
-        {
-            facingRight = true;
-        }
-        else if(dx < 0)
-        {
-            facingRight = false;
-        }
-        if(releasedKeys[0] != releasedKeys[1])
-        {
-            if((x + dx/2) > 0 && (x + width + dx/2) < Main.WINDOW_WIDTH)
+            if(dx > 0)
             {
-                hitbox.setX(x + dx/2);
+                facingRight = true;
+            }
+            else if(dx < 0)
+            {
+                facingRight = false;
+            }
+            if((x + dx) > 0 && (x + width + dx) < Main.WINDOW_WIDTH)
+            {
+                hitbox.setX(x + dx);
                 if(hitbox.getCollisions().size() < 1)
                 {
                     state = "walk";
@@ -135,45 +152,59 @@ public abstract class Actor extends GameObject
 
     public void jump()
     {
-        Hitbox tmpHitbox = hitbox;
-        tmpHitbox.setY(y + gravity);
-
-        if(jumping && tmpHitbox.isCollidingGround())
+        if(alive)
         {
-            targetAltitude = y - maxRelativeAltitude;
-            jumping = false;
-            gravity = MAX_GRAVITY;
-        }
+            Hitbox tmpHitbox = hitbox;
+            tmpHitbox.setY(y + gravity);
 
-        if(targetAltitude < y)
-        {
-            y -= gravity;
-            if(gravity > DEFAULT_GRAVITY)
+            if(jumping && (tmpHitbox.isCollidingGround() || tmpHitbox.isCollidingActor(true)))
             {
-                gravity -= DEFAULT_GRAVITY;
+                targetAltitude = y - maxRelativeAltitude;
+                jumping = false;
+                gravity = MAX_GRAVITY;
             }
-            else {gravity = DEFAULT_GRAVITY;}
-        }
-        else if(!tmpHitbox.isCollidingGround())
-        {
-            y += gravity;
-            if(gravity < MAX_GRAVITY)
+
+            if(targetAltitude < y)
             {
-                gravity += DEFAULT_GRAVITY;
+                state = "jump";
+                y -= gravity;
+                if(gravity > DEFAULT_GRAVITY)
+                {
+                    gravity -= DEFAULT_GRAVITY;
+                }
+                else {gravity = DEFAULT_GRAVITY;}
             }
-            else{gravity = MAX_GRAVITY;}
-            targetAltitude = y;
+            else if(!tmpHitbox.isCollidingGround() && !tmpHitbox.isCollidingActor(true))
+            {
+                y += gravity;
+                if(gravity < MAX_GRAVITY)
+                {
+                    gravity += DEFAULT_GRAVITY;
+                }
+                else{gravity = MAX_GRAVITY;}
 
+                targetAltitude = y;
+
+                if(y > Main.WINDOW_HEIGHT)
+                {
+                    health = 0;
+                    return;
+                }
+
+            }
+            else if(tmpHitbox.isCollidingGround())
+            {
+                Ground ground = tmpHitbox.getGround();
+                if(ground.getY() > (y + height))
+                {
+                    gravity = ground.getY() - (y + height);
+                    y += gravity;
+                }
+            }
+            hitbox.setY(y);
+            raycast.setY(y + height/3);
 
         }
-        else if(tmpHitbox.isCollidingGround())
-        {
-            Ground ground = tmpHitbox.getGround();
-            gravity = ground.getY() - (y + height);
-            y += gravity;
-        }
-        hitbox.setY(y);
-        raycast.setY(y + height/3);
     }
 
     public void hurt()
@@ -186,21 +217,43 @@ public abstract class Actor extends GameObject
             height = 0;
             hitbox = new Hitbox(0,0,0,0);
             raycast = new Raycast(0,0,0);
+            alive = false;
         }
         else{
-            health -= hitbox.getDamage();
+            int damage = hitbox.getDamage();
+            if(damage > 0)
+            {
+                state = "hurt";
+                health -= damage;
+            }
         }
+
+    }
+
+    public void hurt(int damage)
+    {
+        health -= damage;
+        state = "hurt";
     }
 
     public void equip()
     {
-        if(hitbox.getItems().size() > 0)
+        if(alive)
         {
-            if(equippedItem == null)
+            if(hitbox.getItems().size() > 0)
             {
-                equip(hitbox.getItems().get(0));
+                if(equippedItem == null)
+                {
+                    equip(hitbox.getItems().get(0));
+                }
             }
+
         }
+    }
+
+    public int getHealth()
+    {
+        return health;
     }
 
 

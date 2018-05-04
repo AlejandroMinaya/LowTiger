@@ -5,6 +5,7 @@ import game.manager.Main;
 import java.awt.*;
 import javax.swing.*;
 import java.awt.Color;
+import java.io.File;
 
 public class GameObject extends JPanel
 {
@@ -52,10 +53,19 @@ public class GameObject extends JPanel
         return x;
     }
 
+    public void setX(int x)
+    {
+        this.x = x;
+    }
+
     @Override
     public int getY()
     {
         return y;
+    }
+    public void setY(int y)
+    {
+        this.y = y;
     }
 
     @Override
@@ -81,5 +91,12 @@ public class GameObject extends JPanel
             g.drawRect(hitbox.hitboxGetX(), hitbox.hitboxGetY(), hitbox.hitboxGetWidth(), hitbox.hitboxGetHeight());
         }
         g.setColor(new Color(0, 0, 0));
+    }
+
+    public static Image loadImageFile(String file)
+    {
+        String basePath = new File("").getAbsolutePath() + "/src";
+        Image img = (new ImageIcon(basePath + file)).getImage();
+        return img;
     }
 }

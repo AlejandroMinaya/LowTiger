@@ -3,6 +3,8 @@ package game.actor;
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
+
+import game.PlayerHitbox;
 import game.manager.Main;
 import game.Hitbox;
 
@@ -12,6 +14,7 @@ public class Player extends Actor
     private Player()
     {
         super(100 , Main.WINDOW_HEIGHT - 210, 80, 100, 100, 10, 10, "player");
+        hitbox = new PlayerHitbox(x, y, width, height);
     }
 
     public static Player getInstance()
@@ -24,12 +27,12 @@ public class Player extends Actor
         int key = e.getKeyCode();
         if(key == KeyEvent.VK_RIGHT)
         {
-            dx = STEP;
+            dx = step;
             releasedKeys[0] = false;
         }
         if(key == KeyEvent.VK_LEFT)
         {
-            dx = -1 * STEP;
+            dx = -1 * step;
             releasedKeys[1] = false;
         }
         if(key == KeyEvent.VK_SPACE)
@@ -58,11 +61,18 @@ public class Player extends Actor
             releasedKeys[1] = true;
         }
     }
-//    @Override
-//    public void draw(Graphics g) {
-////        ImageIcon ii = new ImageIcon("../../static/player/idle.gif");
-////        g.drawImage(ii.getImage(), x, y, Main.getInstance());
-//        g.setColor(new Color(255,255,0));
-//        g.fillOval(x, y, width, height);
-//    }
+
+    @Override
+    public void move()
+    {
+        if(releasedKeys[0] && releasedKeys[1])
+        {
+            state = "idle";
+            dx = 0;
+        }
+        if(releasedKeys[0] != releasedKeys[1])
+        {
+            super.move();
+        }
+    }
 }

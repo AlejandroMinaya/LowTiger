@@ -6,13 +6,22 @@ import game.actor.*;
 
 import java.awt.Rectangle;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Hitbox extends Rectangle
 {
     private static int lastID = 0;
     private int ID;
-    private final ArrayList<Obstacle> collisions = new ArrayList<>();
-    private final ArrayList<Item> items = new ArrayList<>();
+    protected final ArrayList<GameObject> collisions = new ArrayList<>();
+    protected final ArrayList<Item> items = new ArrayList<>();
+
+    public Hitbox()
+    {
+        super(0,0,0,0);
+        ID = lastID;
+        lastID++;
+    }
+
     public Hitbox(int x, int y, int width, int height)
     {
         super(x, y, width, height);
@@ -49,36 +58,38 @@ public class Hitbox extends Rectangle
         this.y = y;
     }
 
-    public ArrayList<Obstacle> getCollisions()
+    public ArrayList<GameObject> getCollisions()
     {
         collisions.clear();
         ArrayList<GameObject> elements = Main.getInstance().getCurrentLevel().getElements();
-        for(GameObject element : elements)
+        Iterator<GameObject> elementsIterator = elements.iterator();
+        GameObject element;
+        while(elementsIterator.hasNext())
         {
-            if(element instanceof Obstacle){
-                Hitbox elementHitbox = element.getHitbox();
+            element = elementsIterator.next();
+            Hitbox elementHitbox = element.getHitbox();
                 if(!elementHitbox.equals(this) && elementHitbox.intersects(this))
                 {
-                    collisions.add((Obstacle) element);
+                    if(element instanceof Obstacle || element instanceof Player)
+                    {
+                        collisions.add(element);
+                    }
                 }
-            }
-
         }
         return collisions;
     }
 
     public boolean isCollidingGround()
     {
-        ArrayList<GameObject> elements = Main.getInstance().getCurrentLevel().getElements();
-        for(GameObject element : elements)
+        ArrayList<GameObject> elements = getCollisions();
+        Iterator<GameObject> elementsIterator = elements.iterator();
+        GameObject element;
+        while(elementsIterator.hasNext())
         {
+            element = elementsIterator.next();
             if(element instanceof Ground)
             {
-                Hitbox elementHitbox = element.getHitbox();
-                if(!elementHitbox.equals(this) && elementHitbox.intersects(this))
-                {
-                    return true;
-                }
+                return true;
             }
         }
         return false;
@@ -88,8 +99,11 @@ public class Hitbox extends Rectangle
     {
         items.clear();
         ArrayList<GameObject> elements = Main.getInstance().getCurrentLevel().getElements();
-        for(GameObject element : elements)
+        Iterator<GameObject> elementsIterator = elements.iterator();
+        GameObject element;
+        while(elementsIterator.hasNext())
         {
+            element = elementsIterator.next();
             if(element instanceof Item){
                 Hitbox elementHitbox = element.getHitbox();
                 if(!elementHitbox.equals(this) && elementHitbox.intersects(this))
@@ -106,9 +120,12 @@ public class Hitbox extends Rectangle
     {
         if(isCollidingGround())
         {
-            ArrayList<Obstacle> obstacles = getCollisions();
-            for(Obstacle element : obstacles)
+            ArrayList<GameObject> obstacles = getCollisions();
+            Iterator<GameObject> elementsIterator = obstacles.iterator();
+            GameObject element;
+            while(elementsIterator.hasNext())
             {
+                element = elementsIterator.next();
                 if(element instanceof Ground){
                     return (Ground) element;
                 }
@@ -120,9 +137,12 @@ public class Hitbox extends Rectangle
     public int getDamage()
     {
         ArrayList<GameObject> elements = Main.getInstance().getCurrentLevel().getElements();
-        for(GameObject element : elements)
+        Iterator<GameObject> elementsIterator = elements.iterator();
+        GameObject element;
+        while(elementsIterator.hasNext())
         {
-            if(element instanceof Bullet) //ADD MELEE WEAPON
+            element = elementsIterator.next();
+            if(element instanceof Bullet || element instanceof Melee)
             {
                 Hitbox elementHitbox = element.getHitbox();
                 if(!elementHitbox.equals(this) && elementHitbox.intersects(this))
@@ -137,8 +157,38 @@ public class Hitbox extends Rectangle
 
         }
         return 0;
-
     }
+
+    public boolean isCollidingActor()
+    {
+        return isCollidingActor(false);
+    }
+
+    public boolean isCollidingActor(boolean head)
+    {
+        ArrayList<GameObject> collisions = getCollisions();
+        Iterator<GameObject> elementsIterator = collisions.iterator();
+        GameObject element;
+        while(elementsIterator.hasNext())
+        {
+            element = elementsIterator.next();
+            if(element instanceof Actor)
+            {
+                if(head)
+                {
+                    if(element.getY() >= y)
+                    {
+                        return true;
+                    }
+                    continue;
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
+
 
     @Override
     public boolean equals(Object o) {
